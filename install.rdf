@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+				 xmlns:NC="http://home.netscape.com/NC-rdf#"
+				 xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+  <RDF:Description RDF:about="urn:mozilla:install-manifest">
+    <em:id>{5C655500-E712-41e7-9349-CE462F844B19}</em:id>
+    <em:name>Quick Translator</em:name>
+    <em:version>1.0</em:version>
+    <em:description>The most lightweight and easiest translator. Translate between more than 50 languages with one click or a hot key. Translate from one word to a whole page.</em:description>
+    <em:creator>Igor Gladkov</em:creator>
+    <em:translator>Pedro González (es-ES)</em:translator>
+    <em:translator>Axel Grude (de) (quickfolders.mozdev.org)</em:translator>
+    <em:translator>Goofy (fr)</em:translator>
+    <em:translator>Leszek(teo)Życzkowski (pl)</em:translator>
+    <em:translator>BruceH (zh-CN)</em:translator>
+    <em:translator>Palec (cs) (http://palecek.ic.cz/)</em:translator>
+    <em:translator>Kozák Csaba (WonderCsabo) (hu)</em:translator>
+    <em:translator>Luana Di Muzio - BabelZilla (it)</em:translator>
+    <em:translator>Haebaru (ja)</em:translator>
+    <em:translator>Velociraptor (zh-TW)</em:translator>
+    <em:translator>Mikael Hiort af Ornäs (sv-SE)</em:translator>
+    <em:translator>Gutierrez PS (pt-BR)</em:translator>
+    <em:translator>Rancher (sr)</em:translator>
+    <em:translator>Regmos (da)</em:translator>
+    <em:translator>ibraheem_alex (ar)</em:translator>
+    <em:translator>Mihai Preda (ro)</em:translator>
+    <em:translator>Lois (gl-ES)</em:translator>
+    <em:translator>Sinan Kaan Yerli (skyerli.org) (tr)</em:translator>
+    <em:optionsURL>chrome://translator/content/preferences.xul</em:optionsURL>
+    <em:iconURL>chrome://translator/skin/icon_large.png</em:iconURL>
+    <em:homepageURL>http://igorgladkov.com/extensions/translator.html</em:homepageURL>
+    <em:targetApplication RDF:resource="rdf:#$firefox"/>
+    <em:targetApplication RDF:resource="rdf:#$thunderbird"/>
+    <em:targetApplication RDF:resource="rdf:#$seamonkey"/>
+  </RDF:Description>
+  
+  <RDF:Description RDF:about="rdf:#$firefox">
+    <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+    <em:minVersion>3.0</em:minVersion>
+    <em:maxVersion>20.0a1</em:maxVersion>
+  </RDF:Description>
+
+  <RDF:Description RDF:about="rdf:#$thunderbird">
+    <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
+    <em:minVersion>3.0</em:minVersion>
+    <em:maxVersion>20.0a1</em:maxVersion>
+  </RDF:Description>
+
+  <RDF:Description RDF:about="rdf:#$seamonkey">
+    <em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+    <em:minVersion>2.0</em:minVersion>
+    <em:maxVersion>2.17a1</em:maxVersion>
+  </RDF:Description>
+</RDF:RDF>
