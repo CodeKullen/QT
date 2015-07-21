@@ -1,0 +1,44 @@
+content translator jar:chrome/translator.jar!/content/ contentaccessible=yes
+
+resource qlk-modules modules/
+
+overlay chrome://browser/content/browser.xul chrome://translator/content/translatorOverlay.xul application={ec8030f7-c20a-464f-9b0e-13a3a9e97384}
+overlay chrome://browser/content/browser.xul chrome://translator/content/translatorOverlayFF.xul application={ec8030f7-c20a-464f-9b0e-13a3a9e97384}
+
+overlay chrome://messenger/content/mailWindowOverlay.xul chrome://translator/content/translatorOverlay.xul application={3550f703-e582-4d05-9a08-453d09bdfdc6}
+overlay chrome://messenger/content/mailWindowOverlay.xul chrome://translator/content/translatorOverlayTB.xul application={3550f703-e582-4d05-9a08-453d09bdfdc6}
+overlay chrome://messenger/content/messengercompose/messengercompose.xul chrome://translator/content/translatorOverlay.xul application={3550f703-e582-4d05-9a08-453d09bdfdc6}
+overlay chrome://messenger/content/messengercompose/messengercompose.xul chrome://translator/content/translatorOverlayComposeTB.xul application={3550f703-e582-4d05-9a08-453d09bdfdc6}
+
+overlay chrome://navigator/content/navigator.xul chrome://translator/content/translatorOverlay.xul application={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}
+overlay chrome://navigator/content/navigator.xul chrome://translator/content/translatorOverlaySM.xul application={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}
+overlay chrome://messenger/content/mailWindowOverlay.xul chrome://translator/content/translatorOverlay.xul  application={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}
+overlay chrome://messenger/content/mailWindowOverlay.xul chrome://translator/content/translatorOverlayTB.xul  application={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}
+overlay chrome://messenger/content/messengercompose/messengercompose.xul chrome://translator/content/translatorOverlay.xul application={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}
+overlay chrome://messenger/content/messengercompose/messengercompose.xul chrome://translator/content/translatorOverlayComposeTB.xul application={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}
+
+locale translator ar jar:chrome/translator.jar!/locale/ar/
+locale translator cs jar:chrome/translator.jar!/locale/cs/
+locale translator da jar:chrome/translator.jar!/locale/da/
+locale translator de jar:chrome/translator.jar!/locale/de/
+locale translator fr jar:chrome/translator.jar!/locale/fr/
+locale translator en-US jar:chrome/translator.jar!/locale/en-US/
+locale translator es-ES jar:chrome/translator.jar!/locale/es-ES/
+locale translator gl-ES jar:chrome/translator.jar!/locale/gl-ES/
+locale translator hu jar:chrome/translator.jar!/locale/hu/
+locale translator it jar:chrome/translator.jar!/locale/it/
+locale translator ja jar:chrome/translator.jar!/locale/ja/
+locale translator pl jar:chrome/translator.jar!/locale/pl/
+locale translator pt-BR jar:chrome/translator.jar!/locale/pt-BR/
+locale translator ro jar:chrome/translator.jar!/locale/ro/
+locale translator ru jar:chrome/translator.jar!/locale/ru/
+locale translator sr jar:chrome/translator.jar!/locale/sr/
+locale translator sv-SE jar:chrome/translator.jar!/locale/sv-SE/
+locale translator tr jar:chrome/translator.jar!/locale/tr/
+locale translator zh-CN jar:chrome/translator.jar!/locale/zh-CN/
+locale translator zh-TW jar:chrome/translator.jar!/locale/zh-TW/
+
+skin translator classic/1.0 jar:chrome/translator.jar!/skin/classic/
+style chrome://browser/content/browser.xul chrome://translator/skin/translator.css
+style chrome://messenger/content/mailWindowOverlay.xul chrome://translator/skin/translator.css
+style chrome://global/content/customizeToolbar.xul chrome://translator/skin/translator.css
