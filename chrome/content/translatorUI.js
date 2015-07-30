@@ -210,7 +210,7 @@
 		{
 			if(this._preferencesWindow === null || this._preferencesWindow.closed) {
 				let instantApply = $.Services.prefService.getBranch('browser.preferences.')
-						.QueryInterface(Components.interfaces.nsIPrefBranch2).getBoolPref('instantApply');
+						.QueryInterface(Components.interfaces.nsIPrefBranch).getBoolPref('instantApply');
 				
 				let features = 'chrome,titlebar,toolbar,centerscreen,' + (instantApply ? 'dialog=no' : 'modal');
 				
