@@ -4,9 +4,9 @@
 				 xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 
   <RDF:Description RDF:about="urn:mozilla:install-manifest">
-    <em:id>{5C655500-E712-41e7-9349-CE462F844B19}</em:id>
+    <em:id>{5fbc2779-1f67-46fb-8a2a-6599bc1748a8}</em:id>
     <em:name>Quick Translator</em:name>
-    <em:version>1.0</em:version>
+    <em:version>1.1</em:version>
     <em:description>The most lightweight and easiest translator. Translate between more than 50 languages with one click or a hot key. Translate from one word to a whole page.</em:description>
     <em:creator>Igor Gladkov</em:creator>
     <em:type>2</em:type>

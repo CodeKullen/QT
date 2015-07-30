@@ -1,4 +1,4 @@
-pref("extensions.{5C655500-E712-41e7-9349-CE462F844B19}.description", "chrome://translator/locale/translator.properties");
+pref("extensions.{5fbc2779-1f67-46fb-8a2a-6599bc1748a8}.description", "chrome://translator/locale/translator.properties");
 pref('extensions.translator._debug', false);
 pref('extensions.translator.enabled', true);
 pref('extensions.translator.toolbar', false);

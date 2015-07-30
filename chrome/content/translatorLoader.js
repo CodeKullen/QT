@@ -91,7 +91,7 @@ qlk.loadNamespace('qt');
 			catch(ex) {}
 
 			if(typeof AddonManager === 'object') {
-				AddonManager.getAddonByID('{5C655500-E712-41e7-9349-CE462F844B19}', $.bindMethod(function(addon) {
+				AddonManager.getAddonByID('{5fbc2779-1f67-46fb-8a2a-6599bc1748a8}', $.bindMethod(function(addon) {
 					// get saved version from preferences (null if add-on was just installed)
 					let savedVersion = this.prefs.getPref('_version') || '-1';
 
@@ -128,7 +128,7 @@ qlk.loadNamespace('qt');
 			}
 			else {
 				// get installed version
-				let installedVersion = $.Services.extensionManager.getItemForID('{5C655500-E712-41e7-9349-CE462F844B19}').version;
+				let installedVersion = $.Services.extensionManager.getItemForID('{5fbc2779-1f67-46fb-8a2a-6599bc1748a8}').version;
 
 				// get saved version from preferences (null if add-on was just installed)
 				let savedVersion = this.prefs.getPref('_version') || '-1';
