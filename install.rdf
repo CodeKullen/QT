@@ -10,6 +10,7 @@
     <em:description>The most lightweight and easiest translator. Translate between more than 50 languages with one click or a hot key. Translate from one word to a whole page.</em:description>
     <em:creator>Igor Gladkov</em:creator>
     <em:type>2</em:type>
+    <em:unpack>true</em:unpack>
     <em:translator>Pedro González (es-ES)</em:translator>
     <em:translator>Axel Grude (de) (quickfolders.mozdev.org)</em:translator>
     <em:translator>Goofy (fr)</em:translator>
