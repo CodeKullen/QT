@@ -200,7 +200,7 @@
 
 			let el = this.doc.getElementById('translator-popup-source-language-auto');
 			if(el) {
-				el.innerHTML = language + ' - ' + $.properties.getString('detected');
+				el.textContent = language + ' - ' + $.properties.getString('detected');
 			}
 		},
 		
@@ -217,7 +217,7 @@
 			this.translatedText = this.refs.textarea.value;
 			
 			// update message element
-			this.refs.message.innerHTML = this.translatedText;
+			this.refs.message.textContent = this.translatedText;
 		},
 		
 		setNotice: function(notice)
@@ -227,7 +227,7 @@
 			}
 			
 			// assign notice property and update notice element
-			this.refs.notice.innerHTML = this.notice = notice;
+			this.refs.notice.textContent = this.notice = notice;
 
 			// show notice immediately if popup is visible and notice is not empty
 			if(this.visible && notice != null && notice.length > 0) {
@@ -279,7 +279,7 @@
 
 							box = this.doc.createElement('div');
 							box.id = 'translator-popup-update-message';
-							box.style.display = 'none';
+							box.style.display = 'none';							
 							box.innerHTML = $.properties.getString('updateMessage-0.9').replace(/<a href=#([a-z0-9]+)>/ig, replaceLinkCallback);
 							
 							// insert message into popup
@@ -351,7 +351,9 @@
 					}
 
 					// build html
-					this.refs.languagePanel.innerHTML = '<ul>' + languageItems.join('') + '</ul>';
+					var ul = document.createElement("ul")
+					ul.innerHTML = languageItems.join('')
+					this.refs.languagePanel.appendChild(ul)
 
 					// update tab position and size
 					let ts = this.refs.languagePanelTab.style;
@@ -445,7 +447,7 @@
 				// create notice
 				notice = this.doc.createElement('div');
 				notice.id = 'translator-popup-autocopy-notice';
-				notice.innerHTML = $.properties.getString('autoCopied');
+				notice.textContent = $.properties.getString('autoCopied');
 				this.refs.toolbar.appendChild(notice);
 			}
 			else {
