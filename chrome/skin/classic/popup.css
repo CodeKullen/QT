@@ -1,0 +1,380 @@
+
+#translator-popup {
+	-moz-border-radius: 12px;
+	background: transparent;
+	border: 0;
+	border-radius: 12px;
+	bottom: auto;
+	color: #111;
+	cursor: auto;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 13px !important;
+	font-style: normal;
+	font-weight: normal;
+	height: auto;
+	left: 0;
+	line-height: normal;
+	margin: 1px;
+	max-width: 400px;
+	min-width: 250px;
+	opacity: 1;
+	overflow: auto;
+	overflow: hidden;
+	outline: 0;
+	padding: 1px;
+	position: fixed;
+	right: auto;
+	text-align: left;
+	top: 0;
+	width: auto;
+	z-index: 2147483646;
+}
+
+#translator-popup * {
+	background: transparent;
+	border: 0;
+	color: inherit;
+	cursor: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+	height: auto;
+	line-height: inherit;
+	margin: 0;
+	opacity: 1;
+	overflow: auto;
+	outline: 0;
+	padding: 0;
+	text-align: inherit;
+	text-decoration: none;
+	vertical-align: baseline;
+	width: auto;
+}
+
+#translator-popup b {
+	font-weight: bold;
+}
+
+#translator-popup-message {
+	max-height: 480px;
+	overflow: auto;
+	padding: 5px 7px;
+}
+	#translator-popup-message.translator-message-type-normal {
+		
+	}
+	#translator-popup-message.translator-message-type-error {
+		color: #9D0505 !important;
+		font-style: italic !important;
+	}
+
+#translator-popup-message ul {
+	padding-left: 20px;
+}
+#translator-popup-message li {
+	list-style-type: disc;
+	overflow: visible;
+}
+
+#translator-popup-notice {
+	color: #9D0505;
+	font-size: .95em;
+	font-style: italic;
+	padding: 5px 7px;
+}
+
+#translator-popup-update-message {
+	-moz-border-radius: 12px;
+	background-color: #F4E7DE;
+	border-bottom: inherit;
+	border-radius: 12px;
+	color: #940505;
+	font-size: .95em;
+	font-style: normal;
+	left: 0;
+	padding: 35px 10px 10px 10px;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+}
+
+#translator-popup-update-message * {
+	color: inherit;
+	font-size: inherit;
+	font-style: inherit;
+}
+
+#translator-popup-update-message p {
+	margin-bottom: 10px;
+}
+
+#translator-popup-update-message p:last-child {
+	margin-bottom: 0;
+}
+
+#translator-popup-update-message em {
+	color: #7C0404;
+	font-size: 1.25em;
+	font-style: italic;
+}
+
+#translator-popup-update-message small {
+	font-size: .9em;
+}
+
+#translator-popup-update-message a {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#translator-popup-toolbar {
+	-moz-border-radius: 12px;
+	-moz-box-align: center;
+	-moz-box-orient: horizontal;
+	-moz-box-sizing: border-box;
+	border-radius: 12px;
+	display: -moz-box;
+	overflow: hidden;
+	padding: 3px;
+	position: relative;
+	width: 100%;
+	z-index: 2;
+}
+
+#translator-popup-toolbar .translator-popup-toolbar-spring {
+	-moz-box-flex: 100;
+	display: -moz-box;
+}
+
+#translator-popup-title {
+	-moz-box-flex: 1;
+	-moz-box-orient: horizontal;
+	display: -moz-box;
+	margin-right: 5px;
+	overflow: hidden;
+	padding-left: 1px;
+}
+
+#translator-popup-source-languages-wrapper,
+#translator-popup-target-languages-wrapper {
+	-moz-border-radius: 8px;
+	-moz-box-flex: 1;
+	-moz-box-orient: horizontal;
+	background-color: #fff;
+	border-radius: 8px;
+	cursor: pointer;
+	display: -moz-box;
+	height: 18px !important;
+	max-height: 18px !important;
+	min-height: 18px !important;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+}
+
+#translator-popup-source-languages,
+#translator-popup-target-languages {
+	-moz-box-flex: 1;
+	-moz-box-orient: vertical;
+	overflow: hidden;
+	display: -moz-box;
+	list-style-type: none;
+}
+
+#translator-popup-source-languages li,
+#translator-popup-target-languages li {
+	-moz-box-sizing: border-box;
+	-moz-user-select: none;
+	font-size: .9em;
+	height: 18px !important;
+	max-height: 18px !important;
+	min-height: 18px !important;
+	line-height: 18px !important;
+	overflow: visible; /* ensure that all text is visible */
+	padding: 0 3px 0 5px;
+	white-space: nowrap;
+	word-spacing: -2px;
+}
+
+#translator-popup-source-languages-scroller,
+#translator-popup-target-languages-scroller {
+	-moz-border-radius: 8px;
+	-moz-box-flex: 0;
+	background: #eaeaea url('chrome://translator/skin/down_arrow.png') center center no-repeat;
+	border-radius: 8px;
+	display: block;
+	height: 16px;
+	margin: 1px 1px 0 0;
+	max-height: 16px;
+	max-width: 16px;
+	overflow: hidden;
+	width: 16px;
+}
+
+#translator-popup-languages-direction {
+	background: url('chrome://translator/skin/to_arrow.png') center center no-repeat;
+	height: 16px;
+	margin: 0 2px;
+	width: 16px;
+}
+
+#translator-popup-language-panel-tab {
+	-moz-border-radius: 10px 10px 0 0;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-bottom-width: 0;
+	border-radius: 10px 10px 0 0;
+	font-size: .9em;
+	line-height: 18px !important;
+	left: 0;
+	padding: 2px 3px 5px 3px;
+	position: absolute;
+	top: 0;
+	white-space: nowrap;
+	word-spacing: -2px;
+	z-index: 0;
+}
+
+#translator-popup-language-panel {
+	-moz-border-radius: 12px;
+	-moz-box-sizing: border-box;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 12px;
+	display: -moz-box;
+	margin-top: 1px;
+	overflow: hidden;
+	padding: 3px;
+	width: 100%;
+}
+
+#translator-popup-language-panel[data-type="source"] {
+	-moz-border-radius-topleft: 0;
+	border-top-left-radius: 0;
+}
+
+#translator-popup-language-panel ul {
+	-moz-box-flex: 1;
+	-moz-column-count: 3;
+	-moz-column-gap: 5px;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+#translator-popup-language-panel li {
+	-moz-border-radius: 8px;
+	-moz-box-sizing: border-box;
+	-moz-user-select: none;
+	border: 1px solid transparent;
+	border-radius: 8px;
+	cursor: pointer;
+	font-size: .9em;
+	line-height: 18px !important;
+	overflow: visible; /* ensure that all text is visible */
+	padding: 0 4px;
+	white-space: nowrap;
+	word-spacing: -2px;
+}
+
+#translator-popup-language-panel li[data-selected] {
+	background-color: #efefef;
+	border-color: #ddd;
+}
+
+#translator-popup-language-panel li[code="auto"] {
+	font-weight: bold;
+}
+
+#translator-popup-language-panel li:hover {
+	background-color: #fafafa;
+	border-color: #ddd;
+}
+
+#translator-popup-button-copy {
+	background: url('chrome://translator/skin/copy_icon.png') center center no-repeat;
+	cursor: pointer !important;
+	display: block;
+	height: 16px;
+	margin: 1px 2px 1px 1px;
+	width: 16px;
+}
+
+#translator-popup-button-update {
+	background: url('chrome://translator/skin/update_icon.png') center center no-repeat;
+	cursor: pointer !important;
+	display: block;
+	height: 18px;
+	margin: 0 2px;
+	width: 18px;
+}
+
+#translator-popup-autocopy-notice {
+	-moz-border-radius: 8px;
+	background-color: #9D0505;
+	color: #F0F0F0;
+	font-size: .85em;
+	letter-spacing: -0.1px;
+	margin-right: 1px;
+	max-width: 150px;
+	overflow: visible;
+	padding: 1px 4px;
+	white-space: nowrap;
+	word-spacing: -2px;
+}
+
+#translator-popup.translator-theme-original {
+	background-color: #D9C6B6;
+	border: 3px #784F2B ridge;
+}
+#translator-popup.translator-theme-original #translator-popup-toolbar {
+	padding: 2px;
+}
+#translator-popup.translator-theme-original #translator-popup-message {
+	color: #111;
+}
+
+#translator-popup.translator-theme-default {
+	-moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+	background-color: #F0F0F0;
+	border: 1px #979797 solid;
+}
+#translator-popup.translator-theme-default #translator-popup-toolbar {
+	background-color: #D8D8D8;
+}
+#translator-popup.translator-theme-default #translator-popup-message {
+	color: #111;
+}
+
+#translator-popup.translator-theme-system {
+	background-color: #F0F0F0;
+	border: 1px #979797 solid;
+	-moz-appearance: dialog;
+}
+#translator-popup.translator-theme-system #translator-popup-toolbar {
+	background-color: #D8D8D8;
+	-moz-appearance: toolbox;
+}
+#translator-popup.translator-theme-system #translator-popup-message {
+	color: -moz-dialogtext;
+}
+
+#translator-popup-loading {
+	-moz-border-radius: 14px;
+	-moz-box-shadow: 0 0 8px 2px #fff;
+	background: #fff url('chrome://translator/skin/loading.gif') 50% 50% no-repeat;
+	border: 0 none;
+	bottom: auto;
+	height: 14px;
+	left: 0;
+	margin: 4px; /* margin to allow blurred shadow */
+	opacity: 1;
+	overflow: hidden;
+	outline: 0;
+	padding: 0;
+	position: fixed;
+	right: auto;
+	top: 0;
+	width: 14px;
+	z-index: 2147483647;
+}

@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<?xml-stylesheet href="chrome://translator/skin/preferences.css" type="text/css"?>
+<?xml-stylesheet href="chrome://translator/skin/languages.css" type="text/css"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://translator/locale/translator.dtd">
+
+<prefwindow xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+						id="translator-preferences"
+						windowtype="translator:preferences"
+						title="&title.preferences;"
+						type="prefwindow"
+						buttons="accept,cancel,extra2"
+						buttonlabelextra2="&button.reset.preferences;">
+
+	<prefpane id="translator-preferences-pane" flex="1">
+		<preferences>
+			<preference id="translator-preferences-debug" name="extensions.translator._debug" type="bool" />
+			<preference id="translator-preferences-toolbar-preference" name="extensions.translator.toolbar" type="bool" />
+			<preference id="translator-preferences-status-icon-preference" name="extensions.translator.status.icon" type="bool" />
+			<preference id="translator-preferences-context-menu-preference" name="extensions.translator.context.menu" type="bool" />
+			<preference id="translator-preferences-language-preference" name="extensions.translator.language" type="string" />
+			<preference id="translator-preferences-languages-selected-preference" name="extensions.translator.languages.selected" type="string" />
+			<preference id="translator-preferences-translate-selection-preference" name="extensions.translator.translate.selection" type="bool" />
+			<preference id="translator-preferences-translate-button-preference" name="extensions.translator.translate.button" type="bool" />
+			<preference id="translator-preferences-hotkey-translate-preference" name="extensions.translator.hotkey.translate" type="bool" />
+			<preference id="translator-preferences-hotkey-translate-modifiers-preference" name="extensions.translator.hotkey.translate.modifiers" type="string" />
+			<preference id="translator-preferences-hotkey-translate-key-preference" name="extensions.translator.hotkey.translate.key" type="string" />
+			<preference id="translator-preferences-hotkey-input-preference" name="extensions.translator.hotkey.input" type="bool" />
+			<preference id="translator-preferences-hotkey-input-modifiers-preference" name="extensions.translator.hotkey.input.modifiers" type="string" />
+			<preference id="translator-preferences-hotkey-input-key-preference" name="extensions.translator.hotkey.input.key" type="string" />
+			<preference id="translator-preferences-hotkey-page-preference" name="extensions.translator.hotkey.page" type="bool" />
+			<preference id="translator-preferences-hotkey-page-modifiers-preference" name="extensions.translator.hotkey.page.modifiers" type="string" />
+			<preference id="translator-preferences-hotkey-page-key-preference" name="extensions.translator.hotkey.page.key" type="string" />
+			<preference id="translator-preferences-theme-preference" name="extensions.translator.theme" type="string" />
+			<preference id="translator-preferences-autocopy-preference" name="extensions.translator.autocopy" type="bool" />
+		</preferences>
+
+		<hbox id="translator-preferences-content" flex="1">
+			<tabbox id="translator-preferences-tabbox" flex="1">
+				<tabs>
+					<tab label="&preferences.tab.general;" />
+					<tab label="&preferences.tab.appearance;" />
+					<tab label="&preferences.tab.languages;" />
+				</tabs>
+				<tabpanels flex="1">
+					<tabpanel id="translator-preferences-tab-general">
+						<vbox flex="1">
+							<groupbox flex="1">
+								<caption label="&preferences.caption.actions;" />
+								<vbox flex="1">
+									<checkbox id="translator-preferences-translate-selection" label="&preferences.translate.selection;"
+											preference="translator-preferences-translate-selection-preference" />
+									<checkbox id="translator-preferences-translate-button" label="&preferences.translate.button;"
+											preference="translator-preferences-translate-button-preference" />
+								</vbox>
+							</groupbox>
+							<groupbox flex="1">
+								<caption label="&preferences.caption.hotkeys;" />
+								<vbox flex="1">
+									<hbox>
+										<vbox flex="1" align="left">
+											<checkbox id="translator-preferences-hotkey-translate" label="&preferences.hotkey.translate;"
+													preference="translator-preferences-hotkey-translate-preference" flex="1" />
+											<checkbox id="translator-preferences-hotkey-input" label="&preferences.hotkey.input;"
+													preference="translator-preferences-hotkey-input-preference" flex="1" />
+											<checkbox id="translator-preferences-hotkey-page" label="&preferences.hotkey.page;"
+													preference="translator-preferences-hotkey-page-preference" flex="1" />
+										</vbox>
+										<vbox flex="2" align="left">
+											<textbox id="translator-preferences-hotkey-translate-value" value="" disabled="true" readonly="true"
+													clickSelectsAll="true" flex="1" />
+											<textbox id="translator-preferences-hotkey-input-value" value="" disabled="true" readonly="true"
+													clickSelectsAll="true" flex="1" />
+											<textbox id="translator-preferences-hotkey-page-value" value="" disabled="true" readonly="true"
+													clickSelectsAll="true" flex="1" />
+										</vbox>
+									</hbox>
+									<description class="indent">&preferences.hotkey.warning;</description>
+									<description class="indent">&preferences.hotkey.warning2;</description>
+								</vbox>
+							</groupbox>
+							<groupbox flex="1">
+								<caption label="&preferences.caption.clipboard;" />
+								<vbox flex="1">
+									<checkbox id="translator-preferences-autocopy" label="&preferences.autocopy;"
+											preference="translator-preferences-autocopy-preference" />
+								</vbox>
+							</groupbox>
+						</vbox>
+					</tabpanel>
+					<tabpanel id="translator-preferences-tab-appearance">
+						<vbox flex="1">
+							<groupbox>
+								<caption label="&preferences.caption.show;" />
+								<vbox flex="1">
+									<checkbox id="translator-preferences-status-icon" label="&preferences.show.status.icon;"
+											preference="translator-preferences-status-icon-preference" />
+									<checkbox id="translator-preferences-toolbar" label="&preferences.show.toolbar;"
+											preference="translator-preferences-toolbar-preference" />
+									<checkbox id="translator-preferences-context-menu" label="&preferences.show.context.menu;"
+											preference="translator-preferences-context-menu-preference" />
+								</vbox>
+							</groupbox>
+							<groupbox>
+								<caption label="&preferences.theme;" />
+								<hbox align="baseline">
+									<menulist id="translator-preferences-theme" preference="translator-preferences-theme-preference">
+										<menupopup>
+											<menuitem label="&preferences.theme.default;" value="default" />
+											<menuitem label="&preferences.theme.original;" value="original" />
+											<menuitem label="&preferences.theme.system;" value="system" />
+										</menupopup>
+									</menulist>
+									<label id="translator-preferences-theme-note" value="&preferences.theme.note;" />
+								</hbox>
+							</groupbox>
+						</vbox>
+					</tabpanel>
+					<tabpanel id="translator-preferences-tab-languages">
+						<vbox flex="1">
+							<label id="translator-preferences-languages-label">&preferences.languages.label;</label>
+							<hbox flex="1">
+								<vbox flex="1">
+									<label control="translator-preferences-languages" value="&preferences.languages.available;" />
+									<listbox id="translator-preferences-languages" class="translator-languages"
+											seltype="multiple" flex="1" />
+								</vbox>
+
+								<vbox>
+									<spacer flex="1" />
+									<button id="translator-preferences-languages-add" label="&gt;" disabled="true" />
+									<button id="translator-preferences-languages-remove" label="&lt;" disabled="true" />
+									<spacer flex="1" />
+								</vbox>
+
+								<vbox flex="1">
+									<label control="translator-preferences-selected-languages" value="&preferences.languages.selected;" />
+									<listbox id="translator-preferences-selected-languages" class="translator-languages"
+											seltype="multiple" flex="1" />
+								</vbox>
+							</hbox>
+						</vbox>
+					</tabpanel>
+				</tabpanels>
+			</tabbox>
+		</hbox>
+	</prefpane>
+	
+	<script type="application/x-javascript" src="chrome://translator/content/preferences.js" />
+</prefwindow>

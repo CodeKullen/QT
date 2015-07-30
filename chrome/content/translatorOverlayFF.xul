@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://translator/locale/translator.dtd">
+
+<?xml-stylesheet href="chrome://translator/skin/translator.css" type="text/css"?>
+
+<overlay id="translator" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<!-- Context Menu -->
+	<popup id="contentAreaContextMenu">
+		<menuitem id="translator-content-area-menuitem-translate-page" label="&menu.translate.page;"
+			accesskey="&menu.translate.page.accesskey;" key="translator-hotkey-page" class="menuitem-iconic"
+			insertafter="context-selectall" />
+		<menuitem id="translator-content-area-menuitem-translate" label="&menu.translate;"
+			accesskey="&menu.translate.accesskey;" key="translator-hotkey-translate" class="menuitem-iconic"
+			insertafter="context-selectall" hidden="true" />
+	</popup>
+	<!-- End Context Menu -->
+
+	<!-- Toolbar -->
+	<toolbarpalette id="BrowserToolbarPalette">
+		<toolbarbutton id="translator-toolbarbutton" class="toolbarbutton-1" label="&title;" type="menu-button"
+				tooltip="translator-tooltip-toolbar">
+			<menupopup id="translator-toolbarbutton-menu" />
+		</toolbarbutton>
+	</toolbarpalette>
+	<!-- End Toolbar -->
+</overlay>

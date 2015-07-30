@@ -1,0 +1,55 @@
+<!ENTITY title "Quick Translator">
+<!ENTITY title.about "Informazioni su Quick Translator">
+<!ENTITY title.preferences "Impostazioni di Quick Translator">
+<!ENTITY tooltip.click "Fare clic per aprire la finestra a pop-up di traduzione">
+<!ENTITY tooltip.click.text "Selezionare il testo e fare clic per tradurlo">
+<!ENTITY tooltip.click.middle "Fare clic con tasto centrale per aprire la finestra a pop-up di traduzione">
+<!ENTITY tooltip.click.shift "Premere il tasto Maiusc e fare clic per tradurre l&apos;intera pagina">
+<!ENTITY menu.preferences "Impostazioni…">
+<!ENTITY menu.preferences.accesskey "I">
+<!ENTITY menu.languages "Lingue">
+<!ENTITY menu.translate "Traduci il testo selezionato…">
+<!ENTITY menu.translate.accesskey "d">
+<!ENTITY menu.translate.input "Apri la finestra a pop-up di traduzione…">
+<!ENTITY menu.translate.input.accesskey "t">
+<!ENTITY menu.translate.page "Traduci l&apos;intera pagina">
+<!ENTITY menu.translate.page.accesskey "u">
+<!ENTITY menu.enable "Attiva Quick Translator">
+<!ENTITY menu.disable "Disattiva Quick Translator">
+<!ENTITY menu.about "Informazioni su Quick Translator">
+<!ENTITY menu.about.homepage "Visita il sito web">
+<!ENTITY menu.about.review "Scrivi una recensione…">
+<!ENTITY menu.about.support "Segnala un bug e/o richiedi supporto…">
+<!ENTITY menu.about.donation "Effettua una donazione…">
+<!ENTITY preferences.tab.general "Generali">
+<!ENTITY preferences.tab.appearance "Aspetto">
+<!ENTITY preferences.tab.languages "Lingue">
+<!ENTITY preferences.caption.show "Elementi da visualizzare">
+<!ENTITY preferences.caption.actions "Modalità di traduzione">
+<!ENTITY preferences.caption.hotkeys "Combinazioni da tastiera">
+<!ENTITY preferences.caption.clipboard "Copia automatica negli appunti">
+<!ENTITY preferences.show.status.icon "Icona nella barra dei componenti aggiuntivi">
+<!ENTITY preferences.show.toolbar "Pulsante nelle barre degli strumenti">
+<!ENTITY preferences.show.context.menu "Elementi di menu contestuale">
+<!ENTITY preferences.translate.selection "Finestra a pop-up automatica dopo la selezione del testo">
+<!ENTITY preferences.translate.button "Pulsante a scomparsa su cui far clic dopo la selezione del testo">
+<!ENTITY preferences.hotkey.translate "Traduci il testo selezionato…">
+<!ENTITY preferences.hotkey.input "Apri la finestra a pop-up di traduzione…">
+<!ENTITY preferences.hotkey.page "Traduci l&apos;intera pagina">
+<!ENTITY preferences.hotkey.warning "Selezionando una combinazione da tastiera già in uso le opzioni di traduzione potrebbero non funzionare correttamente">
+<!ENTITY preferences.hotkey.warning2 "Riavviare l&apos;applicazione Mozilla per attivare le combinazioni da tastiera modificate">
+<!ENTITY preferences.languages.label "Selezionare le lingue che verranno visualizzate/attivate nel menu contestuale (almeno una)">
+<!ENTITY preferences.languages.available "Lingue disponibili">
+<!ENTITY preferences.languages.selected "Lingue selezionate">
+<!ENTITY preferences.theme "Tema">
+<!ENTITY preferences.theme.default "Predefinito">
+<!ENTITY preferences.theme.original "Originario">
+<!ENTITY preferences.theme.system "Di sistema">
+<!ENTITY preferences.theme.note "(Riavviare l&apos;applicazione Mozilla per rendere effettive le modifiche)">
+<!ENTITY preferences.autocopy "Copia automaticamente il testo tradotto negli appunti">
+<!ENTITY button.reset.preferences "Ripristina predefinite">
+<!ENTITY button.translate "Traduci…">
+<!ENTITY translation.text "Inserire il testo da tradurre (Tab e poi Invio per tradurre):">
+<!ENTITY created.by "Creata da:">
+<!ENTITY homepage "Visita il sito web">
+<!ENTITY email "E-mail">

@@ -1,0 +1,55 @@
+<!ENTITY title "Quick Translator">
+<!ENTITY title.about "О Quick Translator">
+<!ENTITY title.preferences "Настройки Quick Translator">
+<!ENTITY tooltip.click "Нажмите чтобы ввести текст для перевода">
+<!ENTITY tooltip.click.text "Выделите текст и нажмите чтобы перевести выделенный текст">
+<!ENTITY tooltip.click.middle "Нажмите среднюю кнопку мыши чтобы ввести текст для перевода">
+<!ENTITY tooltip.click.shift "Нажмите Shift и левую кнопку мыши чтобы перевести всю страницу">
+<!ENTITY menu.preferences "Настройки...">
+<!ENTITY menu.preferences.accesskey "Н">
+<!ENTITY menu.languages "Языки">
+<!ENTITY menu.translate "Перевести выделенный текст">
+<!ENTITY menu.translate.accesskey "П">
+<!ENTITY menu.translate.input "Ввести текст для перевода...">
+<!ENTITY menu.translate.input.accesskey "В">
+<!ENTITY menu.translate.page "Перевести всю страницу">
+<!ENTITY menu.translate.page.accesskey "т">
+<!ENTITY menu.enable "Включить Quick Translator">
+<!ENTITY menu.disable "Выключить Quick Translator">
+<!ENTITY menu.about "Информация">
+<!ENTITY menu.about.homepage "Открыть домашнюю страницу...">
+<!ENTITY menu.about.review "Написать обзор...">
+<!ENTITY menu.about.support "Сообщить об ошибке или новой функции...">
+<!ENTITY menu.about.donation "Сделать взнос...">
+<!ENTITY preferences.tab.general "Основные">
+<!ENTITY preferences.tab.appearance "Внешний вид">
+<!ENTITY preferences.tab.languages "Языки">
+<!ENTITY preferences.caption.show "Показать...">
+<!ENTITY preferences.caption.actions "Операции">
+<!ENTITY preferences.caption.hotkeys "Горячие клавиши">
+<!ENTITY preferences.caption.clipboard "Буфер обмена">
+<!ENTITY preferences.show.status.icon "Значок в строке состояния">
+<!ENTITY preferences.show.toolbar "Значок на панели инструментов">
+<!ENTITY preferences.show.context.menu "В контекстном меню">
+<!ENTITY preferences.translate.selection "Перевести текст по выделению мышкой">
+<!ENTITY preferences.translate.button "Показать кнопку перевода рядом с выделенным текстом">
+<!ENTITY preferences.hotkey.translate "Перевести выделенный текст">
+<!ENTITY preferences.hotkey.input "Показать окно для перевода">
+<!ENTITY preferences.hotkey.page "Перевести всю страницу">
+<!ENTITY preferences.hotkey.warning "Если вы выберете клавишу, которая уже занята, переводчик может функционировать не правильно.">
+<!ENTITY preferences.hotkey.warning2 "Изменения вступят в силу только после перезапуска программы.">
+<!ENTITY preferences.languages.label "Выберите несколько найболее часто используемых языков (один или больше)">
+<!ENTITY preferences.languages.available "Доступные Языки">
+<!ENTITY preferences.languages.selected "Выбранные Языки">
+<!ENTITY preferences.theme "Тема">
+<!ENTITY preferences.theme.default "Стандартная">
+<!ENTITY preferences.theme.original "Исходная">
+<!ENTITY preferences.theme.system "Системная">
+<!ENTITY preferences.theme.note "Изменения вступят в силу только после перезапуска.">
+<!ENTITY preferences.autocopy "Автоматически копировать перевод в буфер обмена">
+<!ENTITY button.reset.preferences "Восстановить по умолчанию">
+<!ENTITY button.translate "Перевести">
+<!ENTITY translation.text "Введите текст для перевода (Tab потом Enter для перевода):">
+<!ENTITY created.by "Автор:">
+<!ENTITY homepage "Домашняя страница">
+<!ENTITY email "Электронная почта">

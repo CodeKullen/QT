@@ -1,0 +1,55 @@
+<!ENTITY title "Quick Translator">
+<!ENTITY title.about "Om Quick Translator">
+<!ENTITY title.preferences "Inställningar för Quick Translator">
+<!ENTITY tooltip.click "Klicka för att öppna översättningspanelen">
+<!ENTITY tooltip.click.text "Markera text och klicka för att översätta markerad text">
+<!ENTITY tooltip.click.middle "Mittenklicka för att öppna översättningspanelen">
+<!ENTITY tooltip.click.shift "Tryck ned Skift och klicka för att översätta hela sidan">
+<!ENTITY menu.preferences "Inställningar…">
+<!ENTITY menu.preferences.accesskey "n">
+<!ENTITY menu.languages "Språk">
+<!ENTITY menu.translate "Översätt markerad text">
+<!ENTITY menu.translate.accesskey "t">
+<!ENTITY menu.translate.input "Ange text för översättning…">
+<!ENTITY menu.translate.input.accesskey "e">
+<!ENTITY menu.translate.page "Översätt hela sidan">
+<!ENTITY menu.translate.page.accesskey "h">
+<!ENTITY menu.enable "Aktivera Quick Translator">
+<!ENTITY menu.disable "Inaktivera Quick Translator">
+<!ENTITY menu.about "Om">
+<!ENTITY menu.about.homepage "Gå till webbplatsen…">
+<!ENTITY menu.about.review "Skriv recension…">
+<!ENTITY menu.about.support "Rapportera bugg eller föreslå ny funktion…">
+<!ENTITY menu.about.donation "Gör en donation…">
+<!ENTITY preferences.tab.general "Allmänt">
+<!ENTITY preferences.tab.appearance "Utseende">
+<!ENTITY preferences.tab.languages "Språk">
+<!ENTITY preferences.caption.show "Visa…">
+<!ENTITY preferences.caption.actions "Åtgärder">
+<!ENTITY preferences.caption.hotkeys "Kortkommandon">
+<!ENTITY preferences.caption.clipboard "Urklipp">
+<!ENTITY preferences.show.status.icon "Statusfältikon">
+<!ENTITY preferences.show.toolbar "Verktygsfältsikon">
+<!ENTITY preferences.show.context.menu "Snabbmenyobjekt">
+<!ENTITY preferences.translate.selection "Översätt text vid markering med mus">
+<!ENTITY preferences.translate.button "Visa översättningsknappen vid textmarkering">
+<!ENTITY preferences.hotkey.translate "Översätt markerad text">
+<!ENTITY preferences.hotkey.input "Visa översättningspanelen">
+<!ENTITY preferences.hotkey.page "Översätt hela sidan">
+<!ENTITY preferences.hotkey.warning "Om du väljer ett kortkommando som redan är taget, så fungerar kanske inte översättningen ordentligt.">
+<!ENTITY preferences.hotkey.warning2 "Ändringar av kortkommandon verkställs först efter att programmet har startats om.">
+<!ENTITY preferences.languages.label "Välj de språk som du oftast använder vid översättning (åtminstone ett)">
+<!ENTITY preferences.languages.available "Tillgängliga språk">
+<!ENTITY preferences.languages.selected "Utvalda språk">
+<!ENTITY preferences.theme "Tema">
+<!ENTITY preferences.theme.default "Standard">
+<!ENTITY preferences.theme.original "Original">
+<!ENTITY preferences.theme.system "Systemets">
+<!ENTITY preferences.theme.note "Ändring av tema verkställs först efter omstart.">
+<!ENTITY preferences.autocopy "Kopiera automatiskt översatt text till Urklipp">
+<!ENTITY button.reset.preferences "Återställ till standard">
+<!ENTITY button.translate "Översätt">
+<!ENTITY translation.text "Ange text för översättning (Tabb, sedan Retur för att översätta):">
+<!ENTITY created.by "Skapat av:">
+<!ENTITY homepage "Webbplats">
+<!ENTITY email "E-post">

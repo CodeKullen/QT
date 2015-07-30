@@ -1,0 +1,168 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/**
+ * language menu
+ *************************************/
+.translator-language-icon {
+	list-style-image: url("chrome://translator/skin/flags.png");
+}
+
+.translator-language-icon[code="af"] {
+	-moz-image-region: rect(0 16px 16px 0);
+}
+.translator-language-icon[code="be"] {
+	-moz-image-region: rect(0 32px 16px 16px);
+}
+.translator-language-icon[code="cs"] {
+	-moz-image-region: rect(0 48px 16px 32px);
+}
+.translator-language-icon[code="de"] {
+	-moz-image-region: rect(0 64px 16px 48px);
+}
+.translator-language-icon[code="el"] {
+	-moz-image-region: rect(0 80px 16px 64px);
+}
+.translator-language-icon[code="en"] {
+	-moz-image-region: rect(0 96px 16px 80px);
+}
+.translator-language-icon[code="fa"] {
+	-moz-image-region: rect(0 112px 16px 96px);
+}
+.translator-language-icon[code="fi"] {
+	-moz-image-region: rect(0 128px 16px 112px);
+}
+.translator-language-icon[code="fr"] {
+	-moz-image-region: rect(16px 16px 32px 0);
+}
+.translator-language-icon[code="ga"] {
+	-moz-image-region: rect(16px 32px 32px 16px);
+}
+.translator-language-icon[code="hi"] {
+	-moz-image-region: rect(16px 48px 32px 32px);
+}
+.translator-language-icon[code="id"] {
+	-moz-image-region: rect(16px 64px 32px 48px);
+}
+.translator-language-icon[code="it"] {
+	-moz-image-region: rect(16px 80px 32px 64px);
+}
+.translator-language-icon[code="iw"],
+.translator-language-icon[code="yi"] {
+	-moz-image-region: rect(16px 96px 32px 80px);
+}
+.translator-language-icon[code="ja"] {
+	-moz-image-region: rect(16px 112px 32px 96px);
+}
+.translator-language-icon[code="ko"] {
+	-moz-image-region: rect(16px 128px 32px 112px);
+}
+.translator-language-icon[code="nl"] {
+	-moz-image-region: rect(32px 16px 48px 0);
+}
+.translator-language-icon[code="pl"] {
+	-moz-image-region: rect(32px 32px 48px 16px);
+}
+.translator-language-icon[code="pt-PT"] {
+	-moz-image-region: rect(32px 48px 48px 32px);
+}
+.translator-language-icon[code="ro"] {
+	-moz-image-region: rect(32px 64px 48px 48px);
+}
+.translator-language-icon[code="ru"] {
+	-moz-image-region: rect(32px 80px 48px 64px);
+}
+.translator-language-icon[code="sk"] {
+	-moz-image-region: rect(32px 96px 48px 80px);
+}
+.translator-language-icon[code="sr"] {
+	-moz-image-region: rect(32px 112px 48px 96px);
+}
+.translator-language-icon[code="sv"] {
+	-moz-image-region: rect(32px 128px 48px 112px);
+}
+.translator-language-icon[code="tr"] {
+	-moz-image-region: rect(48px 16px 64px 0);
+}
+.translator-language-icon[code="uk"] {
+	-moz-image-region: rect(48px 32px 64px 16px);
+}
+.translator-language-icon[code="vi"] {
+	-moz-image-region: rect(48px 48px 64px 32px);
+}
+.translator-language-icon[code="zh"],
+.translator-language-icon[code="zh-CN"] {
+	-moz-image-region: rect(48px 64px 64px 48px);
+}
+.translator-language-icon[code="ar"] {
+	-moz-image-region: rect(48px 80px 64px 64px);
+}
+.translator-language-icon[code="sq"] {
+	-moz-image-region: rect(48px 96px 64px 80px);
+}
+.translator-language-icon[code="bg"] {
+	-moz-image-region: rect(48px 112px 64px 96px);
+}
+.translator-language-icon[code="hr"] {
+	-moz-image-region: rect(48px 128px 64px 112px);
+}
+.translator-language-icon[code="da"] {
+	-moz-image-region: rect(64px 16px 80px 0);
+}
+.translator-language-icon[code="et"] {
+	-moz-image-region: rect(64px 32px 80px 16px);
+}
+.translator-language-icon[code="gl"],
+.translator-language-icon[code="ca"] {
+	-moz-image-region: rect(64px 48px 80px 32px);
+}
+.translator-language-icon[code="hu"] {
+	-moz-image-region: rect(64px 64px 80px 48px);
+}
+.translator-language-icon[code="is"] {
+	-moz-image-region: rect(64px 80px 80px 64px);
+}
+.translator-language-icon[code="sw"] {
+	-moz-image-region: rect(64px 96px 80px 80px);
+}
+.translator-language-icon[code="lv"] {
+	-moz-image-region: rect(64px 112px 80px 96px);
+}
+.translator-language-icon[code="lt"] {
+	-moz-image-region: rect(64px 128px 80px 112px);
+}
+.translator-language-icon[code="mk"] {
+	-moz-image-region: rect(80px 16px 96px 0);
+}
+.translator-language-icon[code="ms"] {
+	-moz-image-region: rect(80px 32px 96px 16px);
+}
+.translator-language-icon[code="mt"] {
+	-moz-image-region: rect(80px 48px 96px 32px);
+}
+.translator-language-icon[code="no"] {
+	-moz-image-region: rect(80px 64px 96px 48px);
+}
+.translator-language-icon[code="tl"] {
+	-moz-image-region: rect(80px 80px 96px 64px);
+}
+.translator-language-icon[code="sl"] {
+	-moz-image-region: rect(80px 96px 96px 80px);
+}
+.translator-language-icon[code="es"] {
+	-moz-image-region: rect(80px 112px 96px 96px);
+}
+.translator-language-icon[code="zh-TW"] {
+	-moz-image-region: rect(80px 128px 96px 112px);
+}
+.translator-language-icon[code="th"] {
+	-moz-image-region: rect(96px 16px 112px 0);
+}
+.translator-language-icon[code="cy"] {
+	-moz-image-region: rect(96px 32px 112px 16px);
+}
+.translator-language-icon[code="pt"] {
+	-moz-image-region: rect(96px 48px 112px 32px);
+}
+.translator-language-icon[code="ht"] {
+	-moz-image-region: rect(96px 64px 112px 48px);
+}

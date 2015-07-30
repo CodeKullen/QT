@@ -1,0 +1,55 @@
+<!ENTITY title "Quick Translator">
+<!ENTITY title.about "Quick Translator - 关于">
+<!ENTITY title.preferences "Quick Translator - 首选项">
+<!ENTITY tooltip.click "点击打开翻译面板">
+<!ENTITY tooltip.click.text "选择文本并单击来翻译所选文本">
+<!ENTITY tooltip.click.middle "中键单击打开翻译面板">
+<!ENTITY tooltip.click.shift "按住 shift 键并单击来翻译整个页面">
+<!ENTITY menu.preferences "首选项...">
+<!ENTITY menu.preferences.accesskey "n">
+<!ENTITY menu.languages "语言">
+<!ENTITY menu.translate "翻译所选文本">
+<!ENTITY menu.translate.accesskey "T">
+<!ENTITY menu.translate.input "为翻译输入文本...">
+<!ENTITY menu.translate.input.accesskey "E">
+<!ENTITY menu.translate.page "翻译整个页面">
+<!ENTITY menu.translate.page.accesskey "h">
+<!ENTITY menu.enable "启用 Quick Translator">
+<!ENTITY menu.disable "禁用 Quick Translator">
+<!ENTITY menu.about "关于">
+<!ENTITY menu.about.homepage "打开主页">
+<!ENTITY menu.about.review "拼音检查...">
+<!ENTITY menu.about.support "报告 Bug 或功能请求...">
+<!ENTITY menu.about.donation "捐赠...">
+<!ENTITY preferences.tab.general "常规">
+<!ENTITY preferences.tab.appearance "外观">
+<!ENTITY preferences.tab.languages "语言">
+<!ENTITY preferences.caption.show "显示...">
+<!ENTITY preferences.caption.actions "动作">
+<!ENTITY preferences.caption.hotkeys "热键">
+<!ENTITY preferences.caption.clipboard "剪贴板">
+<!ENTITY preferences.show.status.icon "状态栏图标">
+<!ENTITY preferences.show.toolbar "工具栏图标">
+<!ENTITY preferences.show.context.menu "右键菜单项">
+<!ENTITY preferences.translate.selection "鼠标划词翻译">
+<!ENTITY preferences.translate.button "在所选文本上方显示翻译按钮">
+<!ENTITY preferences.hotkey.translate "翻译所选文本">
+<!ENTITY preferences.hotkey.input "显示翻译面板">
+<!ENTITY preferences.hotkey.page "翻译整个页面">
+<!ENTITY preferences.hotkey.warning "如果您选择的热键已注册，翻译可能不能正确的进行。">
+<!ENTITY preferences.hotkey.warning2 "更改的热键仅在应用程序重启后生效">
+<!ENTITY preferences.languages.label "选择几个你经常要翻译的语言（至少一个）">
+<!ENTITY preferences.languages.available "可用语言">
+<!ENTITY preferences.languages.selected "选择的语言">
+<!ENTITY preferences.theme "主题">
+<!ENTITY preferences.theme.default "默认">
+<!ENTITY preferences.theme.original "原始">
+<!ENTITY preferences.theme.system "系统">
+<!ENTITY preferences.theme.note "更改的主题将在重启后生效">
+<!ENTITY preferences.autocopy "自动复制译文到剪贴板">
+<!ENTITY button.reset.preferences "恢复默认">
+<!ENTITY button.translate "翻译">
+<!ENTITY translation.text "为翻译输入文本 (先按 Tab 键然后按 Enter 键来翻译)：">
+<!ENTITY created.by "创建者：">
+<!ENTITY homepage "主页">
+<!ENTITY email "E-mail">

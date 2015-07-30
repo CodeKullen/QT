@@ -1,0 +1,60 @@
+<!ENTITY	title																		"Quick Translator">
+<!ENTITY	title.about															"Quick Translator - About">
+<!ENTITY	title.preferences												"Quick Translator - Preferences">
+
+<!ENTITY	tooltip.click														"Click to open translation panel">
+<!ENTITY	tooltip.click.text											"Select text and click to translate selected text">
+<!ENTITY	tooltip.click.middle										"Middle-click to open translation panel ">
+<!ENTITY	tooltip.click.shift											"Press shift and click to translate whole page">
+
+<!ENTITY	menu.preferences												"Preferences...">
+<!ENTITY	menu.preferences.accesskey							"n">
+<!ENTITY	menu.languages													"Languages">
+<!ENTITY	menu.translate													"Translate Selected Text">
+<!ENTITY	menu.translate.accesskey								"T">
+<!ENTITY	menu.translate.input										"Enter Text for Translation...">
+<!ENTITY	menu.translate.input.accesskey					"E">
+<!ENTITY	menu.translate.page											"Translate Whole Page">
+<!ENTITY	menu.translate.page.accesskey						"h">
+<!ENTITY	menu.enable															"Enable Quick Translator">
+<!ENTITY	menu.disable														"Disable Quick Translator">
+<!ENTITY	menu.about															"About">
+<!ENTITY	menu.about.homepage											"Open Homepage...">
+<!ENTITY	menu.about.review												"Write Review...">
+<!ENTITY	menu.about.support											"Report Bug or Feature Request...">
+<!ENTITY	menu.about.donation											"Make a donation...">
+
+<!ENTITY	preferences.tab.general									"General">
+<!ENTITY	preferences.tab.appearance							"Appearance">
+<!ENTITY	preferences.tab.languages								"Languages">
+<!ENTITY	preferences.caption.show								"Show...">
+<!ENTITY	preferences.caption.actions							"Actions">
+<!ENTITY	preferences.caption.hotkeys							"Hotkeys">
+<!ENTITY	preferences.caption.clipboard						"Clipboard">
+<!ENTITY	preferences.show.status.icon						"Status bar icon">
+<!ENTITY	preferences.show.toolbar								"Toolbar icon">
+<!ENTITY	preferences.show.context.menu						"Context menu items">
+<!ENTITY	preferences.translate.selection					"Translate text on selection by mouse">
+<!ENTITY	preferences.translate.button						"Show translate button on text selection">
+<!ENTITY	preferences.hotkey.translate						"Translate selected text">
+<!ENTITY	preferences.hotkey.input								"Show translation panel">
+<!ENTITY	preferences.hotkey.page									"Translate whole page">
+<!ENTITY	preferences.hotkey.warning							"If you choose a hotkey that is already taken, translation may not function properly.">
+<!ENTITY	preferences.hotkey.warning2							"Changed hotkeys will take effect only after application is restarted.">
+<!ENTITY	preferences.languages.label							"Choose several languages that you use most often for translation (at least one)">
+<!ENTITY	preferences.languages.available					"Available Languages">
+<!ENTITY	preferences.languages.selected					"Selected Languages">
+<!ENTITY	preferences.theme												"Theme">
+<!ENTITY	preferences.theme.default								"Default">
+<!ENTITY	preferences.theme.original							"Original">
+<!ENTITY	preferences.theme.system								"System">
+<!ENTITY	preferences.theme.note									"Changed theme will take effect after restart.">
+<!ENTITY	preferences.autocopy										"Automatically copy translated text to clipboard">
+
+<!ENTITY	button.reset.preferences								"Restore to Default">
+<!ENTITY	button.translate												"Translate">
+
+<!ENTITY	translation.text												"Enter text for translation (Tab then Enter to translate):">
+<!ENTITY	created.by															"Created By:">
+<!ENTITY	homepage																"Home Page">
+<!ENTITY	email																		"E-mail">

@@ -1,0 +1,55 @@
+<!ENTITY title "المُترجم الفوري">
+<!ENTITY title.about "عن - المُترجم الفوري">
+<!ENTITY title.preferences "تفضيلات - المُترجم الفوري">
+<!ENTITY tooltip.click "* انقر لفتح لوحة الترجمة">
+<!ENTITY tooltip.click.text "* ظلل نص وانقر لترجمة النص المُظلل">
+<!ENTITY tooltip.click.middle "* انقر بعجلة الفأرة لفتح لوحة الترجمة">
+<!ENTITY tooltip.click.shift "* اضغط على Shift وانقر بالفأرة لترجمة الصفحة كاملة">
+<!ENTITY menu.preferences "التفضيلات...">
+<!ENTITY menu.preferences.accesskey "ف">
+<!ENTITY menu.languages "اللغات">
+<!ENTITY menu.translate "ترجم النص المُظلل">
+<!ENTITY menu.translate.accesskey "ت">
+<!ENTITY menu.translate.input "أدخل نص لترجمته...">
+<!ENTITY menu.translate.input.accesskey "د">
+<!ENTITY menu.translate.page "ترجم الصفحة كاملة">
+<!ENTITY menu.translate.page.accesskey "ك">
+<!ENTITY menu.enable "فعّل المُترجم الفوري">
+<!ENTITY menu.disable "عطّل المُترجم الفوري">
+<!ENTITY menu.about "عنْ...">
+<!ENTITY menu.about.homepage "افتح الصفحة الرئيسية...">
+<!ENTITY menu.about.review "اكتب تعليق على الإضافة...">
+<!ENTITY menu.about.support "أبلغ عن أخطاء أو عِلل أو اطلب إضافة ميزة جديدة...">
+<!ENTITY menu.about.donation "تبرع لدعم المطور والإضافة">
+<!ENTITY preferences.tab.general "عام">
+<!ENTITY preferences.tab.appearance "المظهر">
+<!ENTITY preferences.tab.languages "اللغات">
+<!ENTITY preferences.caption.show "إظهار...">
+<!ENTITY preferences.caption.actions "الإجراءات">
+<!ENTITY preferences.caption.hotkeys "مفاتيح الاختصار">
+<!ENTITY preferences.caption.clipboard "الحافظة">
+<!ENTITY preferences.show.status.icon "أيقونة شريط الإضافات">
+<!ENTITY preferences.show.toolbar "أيقونة شريط الأدوات">
+<!ENTITY preferences.show.context.menu "الإجراءات في القائمة المنبثقة">
+<!ENTITY preferences.translate.selection "ترجم النص تلقائياً عند تظليله بالفأرة">
+<!ENTITY preferences.translate.button "عند تظليل نص اعرض زر الترجمة بجوار النص المُظلل">
+<!ENTITY preferences.hotkey.translate "ترجمة النص المظلل">
+<!ENTITY preferences.hotkey.input "عرض لوحة الترجمة">
+<!ENTITY preferences.hotkey.page "ترجمة الصفحة كاملة">
+<!ENTITY preferences.hotkey.warning "إذا اخترت مفتاح اختصار مُستخدَم من قِبَل برنامج آخر، قد لا تعمل الإضافة بشكل صحيح.">
+<!ENTITY preferences.hotkey.warning2 "مفاتيح الاختصار المُختارة حديثاً ستعمل بعد إعادة تشغيل البرنامج.">
+<!ENTITY preferences.languages.label "اختر اللغات التي تستخدمها غالباً للترجمة (اختر لغة واحدة على الأقل)">
+<!ENTITY preferences.languages.available "اللغات المُتاحة">
+<!ENTITY preferences.languages.selected "اللغات المُختارة">
+<!ENTITY preferences.theme "المظهر">
+<!ENTITY preferences.theme.default "الافتراضي">
+<!ENTITY preferences.theme.original "الأصلي">
+<!ENTITY preferences.theme.system "حسب النظام">
+<!ENTITY preferences.theme.note "سيتم تغيير المظهر بعد إعادة تشغيل البرنامج">
+<!ENTITY preferences.autocopy "انسخ النص المترجم إلى الحافظة تلقائياً">
+<!ENTITY button.reset.preferences "استعِد الإعدادات المبدئية">
+<!ENTITY button.translate "ترجم">
+<!ENTITY translation.text "أدخل نص لترجمته (اضغط Tap ثم Enter للترجمة):">
+<!ENTITY created.by "أُنشئت بواسطة:">
+<!ENTITY homepage "الصفحة الرئيسية">
+<!ENTITY email "البريد الإلكتروني">

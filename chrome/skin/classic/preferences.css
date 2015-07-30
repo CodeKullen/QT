@@ -1,0 +1,32 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#translator-preferences {
+	min-height: 35em;
+	width: 43em;
+}
+
+#translator-preferences-hotkey-translate,
+#translator-preferences-hotkey-input,
+#translator-preferences-hotkey-page {
+	white-space: nowrap;
+}
+
+#translator-preferences-hotkey-translate-value,
+#translator-preferences-hotkey-input-value,
+#translator-preferences-hotkey-page-value {
+	min-width: 15em;
+}
+
+#translator-preferences-hotkey-note,
+#translator-preferences-theme-note {
+	font-size: 0.9em;
+	font-style: italic;
+}
+
+#translator-preferences-languages-label {
+	font-weight: bold;
+}
+
+description {
+	font-size: 0.9em;
+}

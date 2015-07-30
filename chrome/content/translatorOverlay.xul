@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://translator/locale/translator.dtd">
+
+<?xml-stylesheet href="chrome://translator/skin/translator.css" type="text/css"?>
+
+<overlay id="translator"
+		xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+		xmlns:html="http://www.w3.org/1999/xhtml">
+	<script type="application/x-javascript" src="chrome://translator/content/translatorLoader.js" />
+	<script type="application/x-javascript" src="chrome://translator/content/translatorController.js" />
+	<script type="application/x-javascript" src="chrome://translator/content/translatorUI.js" />
+	<script type="application/x-javascript" src="chrome://translator/content/page.js" />
+	<script type="application/x-javascript" src="chrome://translator/content/popup.js" />
+	<script type="application/x-javascript" src="chrome://translator/content/floatingPanel.js" />
+	<script type="application/x-javascript" src="chrome://translator/content/lib/ajax.js" />
+
+	<!-- String Bundles -->
+	<stringbundleset id="stringbundleset">
+		<stringbundle id="translator-properties" src="chrome://translator/locale/translator.properties" />
+	</stringbundleset>
+	<!-- End String Bundles -->
+
+	<!-- Keyboard Shortcuts -->
+	<keyset>
+		<key id="translator-hotkey-translate" modifiers="control alt" key="T" oncommand="return true;" />
+		<key id="translator-hotkey-input" modifiers="control alt" key="Q" oncommand="return true;" />
+		<key id="translator-hotkey-page" modifiers="control alt" key="P" oncommand="return true;" />
+		<!--
+			return true on command so listeners set in js will be fired
+		-->
+	</keyset>
+	<!-- End Keyboard Shortcuts -->
+
+	<!-- Context Menu Popup -->
+	<popupset>
+		<menupopup id="translator-context-menu">
+			<menuitem id="translator-context-menuitem-enable" label="&menu.enable;" hidden="true" />
+			<menuitem id="translator-context-menuitem-disable" label="&menu.disable;" hidden="false" />
+			<menu id="translator-context-about-menu" label="&menu.about;">
+				<menupopup>
+					<menuitem id="translator-context-menuitem-about-homepage" label="&menu.about.homepage;" />
+					<menuitem id="translator-context-menuitem-about-review" label="&menu.about.review;" />
+					<menuitem id="translator-context-menuitem-about-support" label="&menu.about.support;" />
+					<menuitem id="translator-context-menuitem-about-donation" label="&menu.about.donation;" />
+				</menupopup>
+			</menu>
+			<menuseparator />
+			<menuitem id="translator-context-menuitem-preferences" accesskey="&menu.preferences.accesskey;"
+					label="&menu.preferences;" />
+			<menuseparator />
+			<menuitem id="translator-context-menuitem-translate" accesskey="&menu.translate.accesskey;"
+					key="translator-hotkey-translate" label="&menu.translate;" />
+			<menuitem id="translator-context-menuitem-translate-page" accesskey="&menu.translate.page.accesskey;"
+					key="translator-hotkey-page" label="&menu.translate.page;" />
+			<menuitem id="translator-context-menuitem-translate-input" accesskey="&menu.translate.input.accesskey;"
+					key="translator-hotkey-input" label="&menu.translate.input;" />
+		</menupopup>
+		
+		<panel id="translator-input-panel">
+			<vbox flex="1">
+				<label control="translator-input-textbox">&translation.text;</label>
+				<textbox id="translator-input-textbox" multiline="true" wrap="true" flex="1"></textbox>
+				<button id="translator-input-submit" label="&button.translate;"></button>
+			</vbox>
+		</panel>
+
+		<tooltip id="translator-tooltip">
+			<html:ul><html:li>&tooltip.click;</html:li><html:li>&tooltip.click.text;</html:li><html:li>&tooltip.click.middle;</html:li><html:li>&tooltip.click.shift;</html:li></html:ul>
+		</tooltip>
+
+		<tooltip id="translator-tooltip-toolbar">
+			<html:ul><html:li>&tooltip.click;</html:li><html:li>&tooltip.click.text;</html:li><html:li>&tooltip.click.middle;</html:li></html:ul>
+		</tooltip>
+	</popupset>
+	<!-- End Context Menu Popup -->
+
+	<!-- Status bar -->
+	<statusbar id="status-bar">
+		<statusbarpanel id="translator-status-bar" context="translator-context-menu" hidden="false">
+			<image id="translator-status-icon" tooltip="translator-tooltip" />
+		</statusbarpanel>
+	</statusbar>
+	<!-- End Status bar -->
+</overlay>

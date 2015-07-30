@@ -1,0 +1,55 @@
+<!ENTITY title "Quick Translator">
+<!ENTITY title.about "Quick Translator - Despre">
+<!ENTITY title.preferences "Quick Translator - Preferințe">
+<!ENTITY tooltip.click "Apăsați pentru a deschide panoul de traducere">
+<!ENTITY tooltip.click.text "Selectați textul și apăsați pentru a-l traduce">
+<!ENTITY tooltip.click.middle "Clic la mijloc pentru a deschide panoul de traducere">
+<!ENTITY tooltip.click.shift "Apasă shift și clic pentru a traduce toată pagina">
+<!ENTITY menu.preferences "Preferințe...">
+<!ENTITY menu.preferences.accesskey "n">
+<!ENTITY menu.languages "Limbi">
+<!ENTITY menu.translate "Tradu textul selectat">
+<!ENTITY menu.translate.accesskey "T">
+<!ENTITY menu.translate.input "Introdu text pentru traducere...">
+<!ENTITY menu.translate.input.accesskey "I">
+<!ENTITY menu.translate.page "Tradu toată pagina">
+<!ENTITY menu.translate.page.accesskey "o">
+<!ENTITY menu.enable "Activează Quick Translator">
+<!ENTITY menu.disable "Dezactivează Quick Translator">
+<!ENTITY menu.about "Despre">
+<!ENTITY menu.about.homepage "Deschide pagina de start ...">
+<!ENTITY menu.about.review "Scrie recenzie...">
+<!ENTITY menu.about.support "Raportează eroare sau Sugerează îmbunătățire...">
+<!ENTITY menu.about.donation "Donează...">
+<!ENTITY preferences.tab.general "General">
+<!ENTITY preferences.tab.appearance "Aspect">
+<!ENTITY preferences.tab.languages "Limbi">
+<!ENTITY preferences.caption.show "Arată...">
+<!ENTITY preferences.caption.actions "Acțiuni">
+<!ENTITY preferences.caption.hotkeys "Taste rapide">
+<!ENTITY preferences.caption.clipboard "Clipboard">
+<!ENTITY preferences.show.status.icon "Iconiță bară de stare">
+<!ENTITY preferences.show.toolbar "Iconiță bară de instrumente">
+<!ENTITY preferences.show.context.menu "Elemente meniu contextual">
+<!ENTITY preferences.translate.selection "Tradu textul la selectare">
+<!ENTITY preferences.translate.button "Arată butonul de traducere la selectarea textului">
+<!ENTITY preferences.hotkey.translate "Tradu textul selectat">
+<!ENTITY preferences.hotkey.input "Arată panoul de traducere">
+<!ENTITY preferences.hotkey.page "Tradu toată pagina">
+<!ENTITY preferences.hotkey.warning "Dacă alegeți o tastă rapidă ce este deja folosită s-ar putea să afecteze funcționarea corectă a traducerii.">
+<!ENTITY preferences.hotkey.warning2 "Schimbarea tastelor rapide va fi efectuată după repornirea aplicației.">
+<!ENTITY preferences.languages.label "Alegeți câteva limbi pe care le folosiți cel mai des la traducere (cel puțin una)">
+<!ENTITY preferences.languages.available "Limbi disponibile">
+<!ENTITY preferences.languages.selected "Limbi selectate">
+<!ENTITY preferences.theme "Temă">
+<!ENTITY preferences.theme.default "Inițială">
+<!ENTITY preferences.theme.original "Originală">
+<!ENTITY preferences.theme.system "Sistem">
+<!ENTITY preferences.theme.note "Schimbarea temei va fi efectuată la repornire.">
+<!ENTITY preferences.autocopy "Copiază automat textul tradus în clipboard">
+<!ENTITY button.reset.preferences "Reinițializează">
+<!ENTITY button.translate "Tradu">
+<!ENTITY translation.text "Introduceți textul de tradus (Tab apoi Enter pentru traducere):">
+<!ENTITY created.by "Creat de:">
+<!ENTITY homepage "Pagina de start">
+<!ENTITY email "E-mail">

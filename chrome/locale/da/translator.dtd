@@ -1,0 +1,55 @@
+<!ENTITY title "Quick Translator">
+<!ENTITY title.about "Quick Translator - Om">
+<!ENTITY title.preferences "Quick Translator - Indstillinger">
+<!ENTITY tooltip.click "Klik åbner oversættelsesboks">
+<!ENTITY tooltip.click.text "Marker tekst og klik for at oversætte">
+<!ENTITY tooltip.click.middle "Midterklik åbner oversættelsesboks">
+<!ENTITY tooltip.click.shift "Shift + klik oversætter hele siden">
+<!ENTITY menu.preferences "Indstillinger">
+<!ENTITY menu.preferences.accesskey "n">
+<!ENTITY menu.languages "Sprog">
+<!ENTITY menu.translate "Oversæt valgt tekst">
+<!ENTITY menu.translate.accesskey "O">
+<!ENTITY menu.translate.input "Skriv tekst selv...">
+<!ENTITY menu.translate.input.accesskey "S">
+<!ENTITY menu.translate.page "Oversæt hel side">
+<!ENTITY menu.translate.page.accesskey "h">
+<!ENTITY menu.enable "Aktiver Quick Translator">
+<!ENTITY menu.disable "Deaktiver Quick Translator">
+<!ENTITY menu.about "Om">
+<!ENTITY menu.about.homepage "Åben hjemmeside">
+<!ENTITY menu.about.review "Skriv anmeldelse">
+<!ENTITY menu.about.support "Rapporter fejl eller ønske">
+<!ENTITY menu.about.donation "Donation...">
+<!ENTITY preferences.tab.general "Generelt">
+<!ENTITY preferences.tab.appearance "Vis">
+<!ENTITY preferences.tab.languages "Sprog">
+<!ENTITY preferences.caption.show "Vis...">
+<!ENTITY preferences.caption.actions "Handlinger">
+<!ENTITY preferences.caption.hotkeys "Genveje">
+<!ENTITY preferences.caption.clipboard "Udklipsholder">
+<!ENTITY preferences.show.status.icon "Statuslinie ikon">
+<!ENTITY preferences.show.toolbar "Værktøjslinie ikon">
+<!ENTITY preferences.show.context.menu "Kontekstmenu">
+<!ENTITY preferences.translate.selection "Oversæt ved markering af tekst">
+<!ENTITY preferences.translate.button "Vis knap ved markering af tekst">
+<!ENTITY preferences.hotkey.translate "Oversæt markeret tekst">
+<!ENTITY preferences.hotkey.input "Vis oversættelsesboks">
+<!ENTITY preferences.hotkey.page "Oversæt hele siden">
+<!ENTITY preferences.hotkey.warning "Hvis den valgte genvej er optaget, kan det give problemer.">
+<!ENTITY preferences.hotkey.warning2 "Ændring af genveje kræver at programmet genstartes.">
+<!ENTITY preferences.languages.label "Vælg flere af de sprog du ofte anvender (mindst et)">
+<!ENTITY preferences.languages.available "Tilgængelige sprog">
+<!ENTITY preferences.languages.selected "Valgte sprog">
+<!ENTITY preferences.theme "Tema">
+<!ENTITY preferences.theme.default "Standard">
+<!ENTITY preferences.theme.original "Originalt">
+<!ENTITY preferences.theme.system "System">
+<!ENTITY preferences.theme.note "Tema skiftes efter genstart.">
+<!ENTITY preferences.autocopy "Kopier oversættelsen automatisk">
+<!ENTITY button.reset.preferences "Gendan standard">
+<!ENTITY button.translate "Oversæt">
+<!ENTITY translation.text "Skriv tekst her (tast ENTER for at oversætte):">
+<!ENTITY created.by "Udvikler:">
+<!ENTITY homepage "Hjemmeside">
+<!ENTITY email "Email">

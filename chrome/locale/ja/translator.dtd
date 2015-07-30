@@ -1,0 +1,55 @@
+<!ENTITY title "Quick Translator">
+<!ENTITY title.about "Quick Translatorについて">
+<!ENTITY title.preferences "Quick Translator-設定">
+<!ENTITY tooltip.click "クリックすると翻訳パネルを開きます">
+<!ENTITY tooltip.click.text "テキストを選択してクリックすると選択したテキストを翻訳します">
+<!ENTITY tooltip.click.middle "中クリックすると翻訳パネルを開きます">
+<!ENTITY tooltip.click.shift "Shiftキーを押しながらクリックするとページ全体を翻訳します">
+<!ENTITY menu.preferences "設定...">
+<!ENTITY menu.preferences.accesskey "n">
+<!ENTITY menu.languages "言語">
+<!ENTITY menu.translate "選択したテキストを翻訳">
+<!ENTITY menu.translate.accesskey "T">
+<!ENTITY menu.translate.input "翻訳するテキストを入力する...">
+<!ENTITY menu.translate.input.accesskey "E">
+<!ENTITY menu.translate.page "ページ全体を翻訳">
+<!ENTITY menu.translate.page.accesskey "h">
+<!ENTITY menu.enable "Quick Translatorを有効にする">
+<!ENTITY menu.disable "Quick Translatorを無効にする">
+<!ENTITY menu.about "Quick Translatorについて">
+<!ENTITY menu.about.homepage "ホームページを開く...">
+<!ENTITY menu.about.review "レビューを書く...">
+<!ENTITY menu.about.support "バグの報告や機能のリクエスト...">
+<!ENTITY menu.about.donation "寄付をする...">
+<!ENTITY preferences.tab.general "一般">
+<!ENTITY preferences.tab.appearance "外観">
+<!ENTITY preferences.tab.languages "言語">
+<!ENTITY preferences.caption.show "表示...">
+<!ENTITY preferences.caption.actions "アクション">
+<!ENTITY preferences.caption.hotkeys "ホットキー">
+<!ENTITY preferences.caption.clipboard "クリップボード">
+<!ENTITY preferences.show.status.icon "ステータスバーアイコン">
+<!ENTITY preferences.show.toolbar "ツールバーアイコン">
+<!ENTITY preferences.show.context.menu "コンテキストメニュー項目">
+<!ENTITY preferences.translate.selection "マウスでテキストを選択した時">
+<!ENTITY preferences.translate.button "テキストを選択した時に翻訳ボタンを表示">
+<!ENTITY preferences.hotkey.translate "選択したテキストを翻訳">
+<!ENTITY preferences.hotkey.input "翻訳パネルを表示">
+<!ENTITY preferences.hotkey.page "ページ全体を翻訳">
+<!ENTITY preferences.hotkey.warning "既に使用されているホットキーを選択した場合、翻訳が正常に機能しない場合があります。">
+<!ENTITY preferences.hotkey.warning2 "変更されたホットキーは、再起動後に有効になります。">
+<!ENTITY preferences.languages.label "翻訳時によく使用する言語を選んでください （少なくとも1つ）">
+<!ENTITY preferences.languages.available "使用可能な言語">
+<!ENTITY preferences.languages.selected "選択した言語">
+<!ENTITY preferences.theme "テーマ">
+<!ENTITY preferences.theme.default "デフォルト">
+<!ENTITY preferences.theme.original "オリジナル">
+<!ENTITY preferences.theme.system "システム">
+<!ENTITY preferences.theme.note "テーマの変更は、再起動後に有効になります">
+<!ENTITY preferences.autocopy "自動的にクリップボードに翻訳されたテキストをコピーする">
+<!ENTITY button.reset.preferences "既定の設定に戻す">
+<!ENTITY button.translate "翻訳">
+<!ENTITY translation.text "翻訳するテキストを入力してください(タブに入力):">
+<!ENTITY created.by "作成者：">
+<!ENTITY homepage "ホームページ">
+<!ENTITY email "E-mail">

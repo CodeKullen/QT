@@ -1,0 +1,55 @@
+<!ENTITY title "Quick Translator">
+<!ENTITY title.about "Quick Translator - Névjegy">
+<!ENTITY title.preferences "Quick Translator - Beállítások">
+<!ENTITY tooltip.click "Kattintson a fordítópanel megnyitásához">
+<!ENTITY tooltip.click.text "Jelölje ki a szövegrészt, és kattintson a lefordításához">
+<!ENTITY tooltip.click.middle "Kattintson középső gombbal a fordítópanel megnyitásához">
+<!ENTITY tooltip.click.shift "Nyomja meg a Shift billentyűt és kattintson bal gombbal az egész oldal lefordításához">
+<!ENTITY menu.preferences "Beállítások…">
+<!ENTITY menu.preferences.accesskey "B">
+<!ENTITY menu.languages "Nyelvek">
+<!ENTITY menu.translate "Kijelölt szöveg lefordítása">
+<!ENTITY menu.translate.accesskey "s">
+<!ENTITY menu.translate.input "Írja be a lefordítandó szöveget…">
+<!ENTITY menu.translate.input.accesskey "Í">
+<!ENTITY menu.translate.page "Egész oldal lefordítása">
+<!ENTITY menu.translate.page.accesskey "l">
+<!ENTITY menu.enable "Quick Translator engedélyezése">
+<!ENTITY menu.disable "Quick Translator letiltása">
+<!ENTITY menu.about "Névjegy">
+<!ENTITY menu.about.homepage "Honlap meglátogatása…">
+<!ENTITY menu.about.review "Értékelés írása…">
+<!ENTITY menu.about.support "Hiba vagy javaslat jelzése">
+<!ENTITY menu.about.donation "Adakozás…">
+<!ENTITY preferences.tab.general "Általános">
+<!ENTITY preferences.tab.appearance "Megjelenés">
+<!ENTITY preferences.tab.languages "Nyelvek">
+<!ENTITY preferences.caption.show "Mutatás…">
+<!ENTITY preferences.caption.actions "Műveletek">
+<!ENTITY preferences.caption.hotkeys "Gyorsgombok">
+<!ENTITY preferences.caption.clipboard "Vágólap">
+<!ENTITY preferences.show.status.icon "Állapotsor ikon">
+<!ENTITY preferences.show.toolbar "Eszköztár ikon">
+<!ENTITY preferences.show.context.menu "Környezeti menü elemek">
+<!ENTITY preferences.translate.selection "Szöveg lefordítása egérrel való szöveg kijelöléskor">
+<!ENTITY preferences.translate.button "Fordítás gomb mutatása szöveg kijelölésekor">
+<!ENTITY preferences.hotkey.translate "Kijelölt szöveg fordítása">
+<!ENTITY preferences.hotkey.input "Fordító panel megjelenítése">
+<!ENTITY preferences.hotkey.page "Egész oldal lefordítása">
+<!ENTITY preferences.hotkey.warning "Ha már egy használatban lévő gyorsbillentyűt választ, a fordítás nem biztos, hogy helyesen fog működni">
+<!ENTITY preferences.hotkey.warning2 "A gyorsgombok változtatása csak az alkalmazás újraindítása után lép érvénybe.">
+<!ENTITY preferences.languages.label "Válasszon ki néhány nyelvet, amit gyakran használ fordításkor (legalább egy)">
+<!ENTITY preferences.languages.available "Elérhető nyelvek">
+<!ENTITY preferences.languages.selected "Kiválasztott nyelvek">
+<!ENTITY preferences.theme "Téma">
+<!ENTITY preferences.theme.default "Alapértelmezett">
+<!ENTITY preferences.theme.original "Eredeti">
+<!ENTITY preferences.theme.system "Rendszer">
+<!ENTITY preferences.theme.note "A téma váltása újraindítás után lép érvénybe">
+<!ENTITY preferences.autocopy "Lefordított szöveg másolása a vágólapra automatikusan">
+<!ENTITY button.reset.preferences "Visszaállítás alapértelmezettre">
+<!ENTITY button.translate "Fordítás">
+<!ENTITY translation.text "Lefordítandó szöveg beírás (Tab majd Enter a fordításhoz)">
+<!ENTITY created.by "Készítette:">
+<!ENTITY homepage "Honlap">
+<!ENTITY email "E-mail">

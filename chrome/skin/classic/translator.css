@@ -1,0 +1,111 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+@namespace html url("http://www.w3.org/1999/xhtml");
+
+/**
+ * general rules
+ *************************************/
+.translator-button {
+	margin: 1px;
+}
+
+/**
+ * icons
+ *************************************/
+#translator-toolbarbutton,
+#wrapper-translator-toolbarbutton {
+	list-style-image: url("chrome://translator/skin/icons.png");
+}
+
+/* default icons */
+#translator-toolbarbutton,
+[iconsize="large"] #translator-toolbarbutton {
+  -moz-image-region: rect(0 40px 24px 16px);
+}
+[iconsize="small"] #translator-toolbarbutton {
+	-moz-image-region: rect(0 16px 16px 0);
+}
+
+/* large icons */
+#translator-toolbarbutton[state="enabled"],
+[iconsize="large"] #translator-toolbarbutton[state="enabled"] {
+  -moz-image-region: rect(0 40px 24px 16px);
+}
+#translator-toolbarbutton[state="error"],
+[iconsize="large"] #translator-toolbarbutton[state="error"] {
+  -moz-image-region: rect(24px 40px 48px 16px);
+}
+#translator-toolbarbutton[state="disabled"],
+[iconsize="large"] #translator-toolbarbutton[state="disabled"] {
+  -moz-image-region: rect(48px 40px 72px 16px);
+}
+
+/* small icons */
+[iconsize="small"] #translator-toolbarbutton[state="enabled"] {
+	-moz-image-region: rect(0 16px 16px 0);
+}
+[iconsize="small"] #translator-toolbarbutton[state="error"] {
+	-moz-image-region: rect(16px 16px 32px 0);
+}
+[iconsize="small"] #translator-toolbarbutton[state="disabled"] {
+	-moz-image-region: rect(32px 16px 48px 0);
+}
+
+/**
+ * status bar
+ *************************************/
+#translator-status-icon {
+  -moz-image-region: rect(0 16px 16px 0);
+	cursor: pointer;
+	list-style-image: url("chrome://translator/skin/icons.png");
+}
+
+#translator-status-bar[state="enabled"] #translator-status-icon {
+  -moz-image-region: rect(0 16px 16px 0);
+}
+#translator-status-bar[state="error"] #translator-status-icon {
+  -moz-image-region: rect(16px 16px 32px 0);
+}
+#translator-status-bar[state="disabled"] #translator-status-icon {
+  -moz-image-region: rect(32px 16px 48px 0);
+}
+
+/**
+ * translation panels
+ *************************************/
+.translator-popup {
+	opacity: 0.5;
+}
+
+#translator-input-panel {
+	height: 150px;
+	width: 330px;
+}
+
+/**
+ * context menu
+ *************************************/
+.translator-default-menuitem {
+	font-weight: bold;
+}
+
+/**
+ * content area context menu
+ *************************************/
+#translator-content-area-menuitem-translate,
+#translator-content-area-menuitem-translate-page {
+	-moz-image-region: rect(0 16px 16px 0);
+	list-style-image: url("chrome://translator/skin/icons.png");
+}
+
+/**
+ * tooltip
+ *************************************/
+#translator-tooltip,
+#translator-tooltip-toolbar {
+	padding: 5px;
+}
+	#translator-tooltip html|ul,
+	#translator-tooltip-toolbar html|ul {
+		margin: 0;
+		padding: 0 0 0 17px;
+	}

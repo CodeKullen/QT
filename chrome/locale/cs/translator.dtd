@@ -1,0 +1,55 @@
+<!ENTITY title "Rychlý překladatel">
+<!ENTITY title.about "Rychlý překladatel - O rozšíření">
+<!ENTITY title.preferences "Rychlý překladatel - Předvolby">
+<!ENTITY tooltip.click "Klepněte pro otevření panelu s překladem">
+<!ENTITY tooltip.click.text "Vyberte text a klepněte pro jeho přeložení">
+<!ENTITY tooltip.click.middle "Klepněte prostředním tlačítkem pro otevření panelu s překladem">
+<!ENTITY tooltip.click.shift "Stiskněte shift a klepněte pro přeložení celé stránky">
+<!ENTITY menu.preferences "Předvolby...">
+<!ENTITY menu.preferences.accesskey "P">
+<!ENTITY menu.languages "Jazyky">
+<!ENTITY menu.translate "Přeložit vybraný text">
+<!ENTITY menu.translate.accesskey "b">
+<!ENTITY menu.translate.input "Vložit text k překladu...">
+<!ENTITY menu.translate.input.accesskey "V">
+<!ENTITY menu.translate.page "Přeložit celou stránku">
+<!ENTITY menu.translate.page.accesskey "c">
+<!ENTITY menu.enable "Povolit Rychlého překladatele">
+<!ENTITY menu.disable "Zakázat Rychlého překladatele">
+<!ENTITY menu.about "O rozšíření">
+<!ENTITY menu.about.homepage "Otevřít domovskou stránku...">
+<!ENTITY menu.about.review "Napsat recenzi...">
+<!ENTITY menu.about.support "Nahlásit chybu nebo požadavek na funkci...">
+<!ENTITY menu.about.donation "Přispět...">
+<!ENTITY preferences.tab.general "Obecné">
+<!ENTITY preferences.tab.appearance "Vzhled">
+<!ENTITY preferences.tab.languages "Jazyky">
+<!ENTITY preferences.caption.show "Ukázat...">
+<!ENTITY preferences.caption.actions "Akce">
+<!ENTITY preferences.caption.hotkeys "Klávesové zkratky">
+<!ENTITY preferences.caption.clipboard "Schránka">
+<!ENTITY preferences.show.status.icon "Ikona ve stavovém řádku">
+<!ENTITY preferences.show.toolbar "Ikona na panelu nástrojů">
+<!ENTITY preferences.show.context.menu "Položky místní nabídky">
+<!ENTITY preferences.translate.selection "Přeložit text při výběru myší">
+<!ENTITY preferences.translate.button "Ukázat tlačítko překladu při výběru textu">
+<!ENTITY preferences.hotkey.translate "Přeložit vybraný text">
+<!ENTITY preferences.hotkey.input "Ukázat panel překladu">
+<!ENTITY preferences.hotkey.page "Přeložit celou stránku">
+<!ENTITY preferences.hotkey.warning "Pokud vyberete klávesovou zkratku, která už je obsazená, překlad nemusí fungovat správně.">
+<!ENTITY preferences.hotkey.warning2 "Změna klávesových zkratek se provede až po restartu aplikace.">
+<!ENTITY preferences.languages.label "Vyberte několik jazyků, které používáte k překladu nejčastěji (nejméně jeden)">
+<!ENTITY preferences.languages.available "Dostupné jazyky">
+<!ENTITY preferences.languages.selected "Vybrané jazyky">
+<!ENTITY preferences.theme "Motiv vzhledu">
+<!ENTITY preferences.theme.default "Výchozí">
+<!ENTITY preferences.theme.original "Původní">
+<!ENTITY preferences.theme.system "Systémový">
+<!ENTITY preferences.theme.note "Změna motivu vzhledu se projeví až po restartu.">
+<!ENTITY preferences.autocopy "Automaticky zkopírovat přeložený text do schránky">
+<!ENTITY button.reset.preferences "Obnovit do výchozího stavu">
+<!ENTITY button.translate "Přeložit">
+<!ENTITY translation.text "Vložte text k přeložení (tab a enter pro přeložení):">
+<!ENTITY created.by "Vytvořil:">
+<!ENTITY homepage "Domovská stránka">
+<!ENTITY email "E-mail">

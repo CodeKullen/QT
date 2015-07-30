@@ -1,0 +1,55 @@
+<!ENTITY title "Quick Translator">
+<!ENTITY title.about "Hızlı Çevirici - Hakkında">
+<!ENTITY title.preferences "Hızlı Çevirici - Tercihler">
+<!ENTITY tooltip.click "Çeviri penceresini açmak için tıklayın">
+<!ENTITY tooltip.click.text "Metin seçin ve seçileni çevirmek için tıklayın">
+<!ENTITY tooltip.click.middle "Çeviri penceresini açmak için orta tuşa tıklayın">
+<!ENTITY tooltip.click.shift "Tüm sayfayı çevirmek için Shift\'e basın ve tıklayın">
+<!ENTITY menu.preferences "Tercihler...">
+<!ENTITY menu.preferences.accesskey "t">
+<!ENTITY menu.languages "Diller">
+<!ENTITY menu.translate "Seçili Metni Çevir">
+<!ENTITY menu.translate.accesskey "Ç">
+<!ENTITY menu.translate.input "Çeviri için Metin Girin...">
+<!ENTITY menu.translate.input.accesskey "M">
+<!ENTITY menu.translate.page "Tüm Sayfayı Çevir">
+<!ENTITY menu.translate.page.accesskey "s">
+<!ENTITY menu.enable "Hızlı Çeviriciyi Etkinleştir">
+<!ENTITY menu.disable "Hızlı Çeviriciyi Etkinsizleştir">
+<!ENTITY menu.about "Hakkında">
+<!ENTITY menu.about.homepage "Anasayfayı Aç...">
+<!ENTITY menu.about.review "Görüş Yaz...">
+<!ENTITY menu.about.support "Hata ya da Özellik Önerisi Bildir...">
+<!ENTITY menu.about.donation "Bağış yap...">
+<!ENTITY preferences.tab.general "Genel">
+<!ENTITY preferences.tab.appearance "Görünüm">
+<!ENTITY preferences.tab.languages "Diller">
+<!ENTITY preferences.caption.show "Göster...">
+<!ENTITY preferences.caption.actions "Eylemler">
+<!ENTITY preferences.caption.hotkeys "Kısayollar">
+<!ENTITY preferences.caption.clipboard "Pano">
+<!ENTITY preferences.show.status.icon "Durum çubuğu simgesi">
+<!ENTITY preferences.show.toolbar "Araç çubuğu simgesi">
+<!ENTITY preferences.show.context.menu "İçerik menüsü öğeleri">
+<!ENTITY preferences.translate.selection "Fare ile seçimlerde metni çevir">
+<!ENTITY preferences.translate.button "Metin seçimlerinde çevir düğmesini göster">
+<!ENTITY preferences.hotkey.translate "Seçili metni çevir">
+<!ENTITY preferences.hotkey.input "Çeviri penceresini göster">
+<!ENTITY preferences.hotkey.page "Tüm sayfayı çevir">
+<!ENTITY preferences.hotkey.warning "Kullanımdaki kısayol tuşunu seçerseniz çeviri düzgün çalışmayabilir.">
+<!ENTITY preferences.hotkey.warning2 "Değiştirilen kısayolları ancak uygulama yeniden başlatıldıktan sonra çalışacak.">
+<!ENTITY preferences.languages.label "Çeviri için en çok kullandığınız bir kaç (en az bir) dili seçin">
+<!ENTITY preferences.languages.available "Hazırdaki Diller">
+<!ENTITY preferences.languages.selected "Seçili Diller">
+<!ENTITY preferences.theme "Tema">
+<!ENTITY preferences.theme.default "Varsayılan">
+<!ENTITY preferences.theme.original "Özgün">
+<!ENTITY preferences.theme.system "Sistem">
+<!ENTITY preferences.theme.note "Değiştirilen tema yeniden başlatıldıktan sonra çalışacak.">
+<!ENTITY preferences.autocopy "Çevrilen metni panoya otomatik kopyala">
+<!ENTITY button.reset.preferences "Varsayılana Geri Yükle">
+<!ENTITY button.translate "Çevir">
+<!ENTITY translation.text "Çeviri için metin girin (çevirmek için önce Tab sonra Enter):">
+<!ENTITY created.by "Üreten:">
+<!ENTITY homepage "Ana sayfa">
+<!ENTITY email "E-posta">

@@ -1,0 +1,55 @@
+<!ENTITY title "Quick Translator">
+<!ENTITY title.about "關於 Quick Translator">
+<!ENTITY title.preferences "Quick Translator - 偏好設定">
+<!ENTITY tooltip.click "按此可開啟翻譯面板">
+<!ENTITY tooltip.click.text "選取文字後按此即可翻譯選擇的文字">
+<!ENTITY tooltip.click.middle "中鍵點選開啟翻譯面板">
+<!ENTITY tooltip.click.shift "按住 shift 點選時翻譯整頁">
+<!ENTITY menu.preferences "偏好設定…">
+<!ENTITY menu.preferences.accesskey "n">
+<!ENTITY menu.languages "語言">
+<!ENTITY menu.translate "翻譯選擇的文字">
+<!ENTITY menu.translate.accesskey "T">
+<!ENTITY menu.translate.input "輸入要翻譯的文字…">
+<!ENTITY menu.translate.input.accesskey "E">
+<!ENTITY menu.translate.page "翻譯整頁">
+<!ENTITY menu.translate.page.accesskey "h">
+<!ENTITY menu.enable "啟用 Quick Translator">
+<!ENTITY menu.disable "停用 Quick Translator">
+<!ENTITY menu.about "關於">
+<!ENTITY menu.about.homepage "套件首頁…">
+<!ENTITY menu.about.review "留下意見…">
+<!ENTITY menu.about.support "回報問題或功能建議…">
+<!ENTITY menu.about.donation "捐助開發…">
+<!ENTITY preferences.tab.general "一般">
+<!ENTITY preferences.tab.appearance "外觀">
+<!ENTITY preferences.tab.languages "語言">
+<!ENTITY preferences.caption.show "顯示…">
+<!ENTITY preferences.caption.actions "起動">
+<!ENTITY preferences.caption.hotkeys "快速鍵">
+<!ENTITY preferences.caption.clipboard "剪貼簿">
+<!ENTITY preferences.show.status.icon "狀態列圖示">
+<!ENTITY preferences.show.toolbar "工具列圖示">
+<!ENTITY preferences.show.context.menu "快顯功能表項目">
+<!ENTITY preferences.translate.selection "滑鼠選擇文字後立刻翻譯">
+<!ENTITY preferences.translate.button "選擇文字後顯示翻譯按鈕">
+<!ENTITY preferences.hotkey.translate "翻譯選擇的文字">
+<!ENTITY preferences.hotkey.input "顯示翻譯面板">
+<!ENTITY preferences.hotkey.page "翻譯整頁">
+<!ENTITY preferences.hotkey.warning "如果您選擇了已設定使用的快速鍵，翻譯功能可能無法正常運作。">
+<!ENTITY preferences.hotkey.warning2 "應用程式重新啟動後快速鍵的變更才會生效。">
+<!ENTITY preferences.languages.label "選擇您最常需要翻譯的數種語言（至少一種）">
+<!ENTITY preferences.languages.available "可用語言">
+<!ENTITY preferences.languages.selected "已選擇語言">
+<!ENTITY preferences.theme "佈景">
+<!ENTITY preferences.theme.default "預設">
+<!ENTITY preferences.theme.original "原始">
+<!ENTITY preferences.theme.system "系統">
+<!ENTITY preferences.theme.note "佈景的變更會在重新啟動後生效。">
+<!ENTITY preferences.autocopy "自動將翻譯後文字複製到剪貼簿">
+<!ENTITY button.reset.preferences "還原為預設值">
+<!ENTITY button.translate "翻譯">
+<!ENTITY translation.text "輸入要翻譯的文字（按 Tab 鍵再按 Enter 鍵開始翻譯）：">
+<!ENTITY created.by "作者：">
+<!ENTITY homepage "首頁">
+<!ENTITY email "E-mail">

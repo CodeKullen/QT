@@ -1,0 +1,74 @@
+
+#translator-floating-panel {
+	-moz-border-radius: 12px;
+	background: transparent;
+	border: 0;
+	border-radius: 12px;
+	bottom: auto;
+	color: #111;
+	cursor: pointer;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 13px !important;
+	font-style: normal;
+	font-weight: normal;
+	height: auto;
+	left: 0;
+	margin: 0;
+	max-height: 16px; /* limit size to avoid animation glitch */
+	max-width: 16px; /* limit size to avoid animation glitch */
+	min-height: 0; /* this should overwrite any external styles */
+	min-width: 0; /* this should overwrite any external styles */
+	opacity: 0.4;
+	overflow: hidden;
+	outline: 0;
+	padding: 0;
+	position: fixed;
+	right: auto;
+	text-align: left;
+	top: 0;
+	width: auto;
+	z-index: 2147483647;
+}
+	#translator-floating-panel:hover {
+		opacity: 1;
+	}
+
+#translator-floating-panel * {
+	background: transparent;
+	border: 0;
+	color: inherit;
+	cursor: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+	height: auto;
+	margin: 0;
+	opacity: 1;
+	overflow: auto;
+	outline: 0;
+	padding: 0;
+	text-align: inherit;
+	text-decoration: none;
+	width: auto;
+}
+
+#translator-floating-panel.translator-theme-original {
+	background-color: #D9C6B6;
+	border: 1px #784F2B solid;
+	padding: 2px;
+}
+#translator-floating-panel.translator-theme-default {
+	background-color: #F0F0F0;
+	border: 1px #979797 solid;
+	padding: 2px;
+}
+#translator-floating-panel.translator-theme-system {
+	-moz-appearance: dialog;
+}
+
+#translator-floating-panel-button {
+	background: url('chrome://translator/skin/icons.png') top left no-repeat;
+	height: 16px;
+	width: 16px;
+}

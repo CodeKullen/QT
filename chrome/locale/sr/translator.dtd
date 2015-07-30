@@ -1,0 +1,55 @@
+<!ENTITY title "Брз преводилац">
+<!ENTITY title.about "О додатку">
+<!ENTITY title.preferences "Поставке">
+<!ENTITY tooltip.click "Кликните да отворите преводилачки оквир">
+<!ENTITY tooltip.click.text "Изаберите текст и кликните на дугме које се појави">
+<!ENTITY tooltip.click.middle "Притисните средњи клик да отворите преводилачки оквир">
+<!ENTITY tooltip.click.shift "Притисните шифт и клик да преведете цео текст">
+<!ENTITY menu.preferences "Поставке…">
+<!ENTITY menu.preferences.accesskey "П">
+<!ENTITY menu.languages "Језици">
+<!ENTITY menu.translate "Преведи изабрани текст">
+<!ENTITY menu.translate.accesskey "и">
+<!ENTITY menu.translate.input "Унеси текст за превођење…">
+<!ENTITY menu.translate.input.accesskey "У">
+<!ENTITY menu.translate.page "Преведи целу страницу">
+<!ENTITY menu.translate.page.accesskey "ц">
+<!ENTITY menu.enable "Омогући">
+<!ENTITY menu.disable "Онемогући">
+<!ENTITY menu.about "О додатку">
+<!ENTITY menu.about.homepage "отвори насловну страницу">
+<!ENTITY menu.about.review "напиши критику">
+<!ENTITY menu.about.support "пријави грешку или захтев">
+<!ENTITY menu.about.donation "донирај">
+<!ENTITY preferences.tab.general "Опште">
+<!ENTITY preferences.tab.appearance "Изглед">
+<!ENTITY preferences.tab.languages "Језици">
+<!ENTITY preferences.caption.show "Приказ">
+<!ENTITY preferences.caption.actions "Радње">
+<!ENTITY preferences.caption.hotkeys "Пречице">
+<!ENTITY preferences.caption.clipboard "Остава">
+<!ENTITY preferences.show.status.icon "Иконица на линији стања">
+<!ENTITY preferences.show.toolbar "Иконица на траци с алаткама">
+<!ENTITY preferences.show.context.menu "Ставке приручног менија">
+<!ENTITY preferences.translate.selection "Преведи текст по избору">
+<!ENTITY preferences.translate.button "Прикажи дугме за превођење по избору текста">
+<!ENTITY preferences.hotkey.translate "Преведи изабрани текст">
+<!ENTITY preferences.hotkey.input "Прикажи преводилачки панел">
+<!ENTITY preferences.hotkey.page "Преведи целу страницу">
+<!ENTITY preferences.hotkey.warning "Ако изаберете пречицу која је заузета, превођење неће радити исправно.">
+<!ENTITY preferences.hotkey.warning2 "Измењене пречице ће ступити на снагу након поновног покретања прегледача.">
+<!ENTITY preferences.languages.label "Изаберите више језика које користите најчешће при превођењу">
+<!ENTITY preferences.languages.available "Доступни језици">
+<!ENTITY preferences.languages.selected "Изабрани језици">
+<!ENTITY preferences.theme "Тема">
+<!ENTITY preferences.theme.default "подразумевана">
+<!ENTITY preferences.theme.original "изворна">
+<!ENTITY preferences.theme.system "системска">
+<!ENTITY preferences.theme.note "Измена ступа на снагу након поновног покретања.">
+<!ENTITY preferences.autocopy "Самостално умножи преведени текст">
+<!ENTITY button.reset.preferences "Врати на подразумевано">
+<!ENTITY button.translate "Преведи">
+<!ENTITY translation.text "Унесите текст за превођење:">
+<!ENTITY created.by "Аутор:">
+<!ENTITY homepage "Интернет страница">
+<!ENTITY email "Е-адреса">

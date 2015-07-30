@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://translator/locale/translator.dtd">
+
+<?xml-stylesheet href="chrome://translator/skin/translator.css" type="text/css"?>
+
+<overlay id="translator" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<!-- Context Menu -->
+	<popup id="msgComposeContext">
+		<menuitem id="translator-content-area-menuitem-translate" label="&menu.translate;"
+			accesskey="&menu.translate.accesskey;" key="translator-hotkey-translate" class="menuitem-iconic" hidden="true" />
+	</popup>
+	<!-- End Context Menu -->
+
+	<!-- Toolbar -->
+	<toolbarpalette id="MsgComposeToolbarPalette">
+		<toolbarbutton id="translator-toolbarbutton" class="toolbarbutton-1" label="&title;" type="menu-button"
+				tooltip="translator-tooltip-toolbar">
+			<menupopup id="translator-toolbarbutton-menu" />
+		</toolbarbutton>
+	</toolbarpalette>
+	<!-- End Toolbar -->
+
+	<!-- Hiding whole page translation menu item (not supported in mail client) -->
+	<menuitem id="translator-context-menuitem-translate-page" hidden="true" />
+
+	<!-- Using toolbar tooltip for mail client since it does not support whole page translation -->
+	<statusbarpanel id="translator-status-icon" tooltip="translator-tooltip-toolbar" />
+</overlay>

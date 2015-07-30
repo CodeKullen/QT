@@ -1,0 +1,55 @@
+<!ENTITY title "Quick Translator">
+<!ENTITY title.about "Quick Translator - À propos de cette extension">
+<!ENTITY title.preferences "Quick Translator - Préférences">
+<!ENTITY tooltip.click "Click to open translation panel">
+<!ENTITY tooltip.click.text "Select text and click to translate selected text">
+<!ENTITY tooltip.click.middle "Middle-click to open translation panel ">
+<!ENTITY tooltip.click.shift "Press shift and click to translate whole page">
+<!ENTITY menu.preferences "Préférences...">
+<!ENTITY menu.preferences.accesskey "f">
+<!ENTITY menu.languages "Langues">
+<!ENTITY menu.translate "Traduire le texte sélectionné">
+<!ENTITY menu.translate.accesskey "T">
+<!ENTITY menu.translate.input "Saisir le texte à traduire...">
+<!ENTITY menu.translate.input.accesskey "S">
+<!ENTITY menu.translate.page "Traduire la page entière">
+<!ENTITY menu.translate.page.accesskey "r">
+<!ENTITY menu.enable "Activer Quick Translator">
+<!ENTITY menu.disable "Désactiver Quick Translator">
+<!ENTITY menu.about "À propos">
+<!ENTITY menu.about.homepage "Ouvrir la page d'accueil...">
+<!ENTITY menu.about.review "Écrire un commentaire...">
+<!ENTITY menu.about.support "Rapporter un bogue ou demander une nouvelle fonctionnalité…">
+<!ENTITY menu.about.donation "Faire un don...">
+<!ENTITY preferences.tab.general "Général">
+<!ENTITY preferences.tab.appearance "Apparence">
+<!ENTITY preferences.tab.languages "Langues">
+<!ENTITY preferences.caption.show "Afficher...">
+<!ENTITY preferences.caption.actions "Actions">
+<!ENTITY preferences.caption.hotkeys "Raccourcis">
+<!ENTITY preferences.caption.clipboard "Presse-papiers">
+<!ENTITY preferences.show.status.icon "Une icône dans la barre d'état">
+<!ENTITY preferences.show.toolbar "Une icône dans la barre d'outils">
+<!ENTITY preferences.show.context.menu "Des entrées de menu contextuel">
+<!ENTITY preferences.translate.selection "Traduction du texte sélectionné à la souris">
+<!ENTITY preferences.translate.button "Afficher le bouton de traduction dès la sélection du texte">
+<!ENTITY preferences.hotkey.translate "Traduire le texte sélectionné">
+<!ENTITY preferences.hotkey.input "Afficher le panneau de traduction">
+<!ENTITY preferences.hotkey.page "Traduire toute la page">
+<!ENTITY preferences.hotkey.warning "Si vous choisissez un raccourci déjà utilisé, il se peut que la traduction de fonctionne pas correctement.">
+<!ENTITY preferences.hotkey.warning2 "Les raccourcis modifiés ne prendront effet qu'après avoir redémarré le navigateur.">
+<!ENTITY preferences.languages.label "Choisissez trois langues que vous utilisez le plus fréquemment pour traduire (une au moins)">
+<!ENTITY preferences.languages.available "Langues disponibles">
+<!ENTITY preferences.languages.selected "Langues sélectionnées">
+<!ENTITY preferences.theme "Thème">
+<!ENTITY preferences.theme.default "Par défaut">
+<!ENTITY preferences.theme.original "Original">
+<!ENTITY preferences.theme.system "Système">
+<!ENTITY preferences.theme.note "Le changement de thème ne prendra effet qu'au redémarrage.">
+<!ENTITY preferences.autocopy "Copier automatiquement le texte traduit dans le presse-papiers">
+<!ENTITY button.reset.preferences "Restaurer les valeurs par défaut">
+<!ENTITY button.translate "Traduire">
+<!ENTITY translation.text "Saisir le texte à traduire (Tab then Enter to translate) :">
+<!ENTITY created.by "Créée par :">
+<!ENTITY homepage "Page d'accueil">
+<!ENTITY email "Adresse électronique">
