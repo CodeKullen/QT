@@ -271,7 +271,7 @@ qlk.loadNamespace('qt');
 		// check debug option
 		let prefService = Components.classes['@mozilla.org/preferences-service;1']
 				.getService(Components.interfaces.nsIPrefService).getBranch('extensions.translator.');
-		prefService.QueryInterface(Components.interfaces.nsIPrefBranch2);
+		prefService.QueryInterface(Components.interfaces.nsIPrefBranch);
 
 		// set debug status
 		$.Debug.enabled = prefService.getBoolPref('_debug') || false;
