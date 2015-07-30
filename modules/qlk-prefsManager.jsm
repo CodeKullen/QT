@@ -10,7 +10,7 @@ Components.utils.import("resource://qlk-modules/qlk-debug.jsm");
 var PrefsManager = $ = function(branch)
 {
 	this.service = Services.prefService.getBranch(branch);
-	this.service.QueryInterface(Components.interfaces.nsIPrefBranch2);
+	this.service.QueryInterface(Components.interfaces.nsIPrefBranch);
 };
 
 $.prototype = {
