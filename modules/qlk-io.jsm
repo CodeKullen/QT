@@ -34,7 +34,7 @@ Components.utils.import("resource://qlk-modules/qlk-services.jsm");
 
 var FileIO = {
 	localfileCID  : '@mozilla.org/file/local;1',
-	localfileIID  : Components.interfaces.nsILocalFile,
+	localfileIID  : Components.interfaces.nsIFile,
 
 	finstreamCID  : '@mozilla.org/network/file-input-stream;1',
 	finstreamIID  : Components.interfaces.nsIFileInputStream,
