@@ -1,1 +1,7 @@
-{"name":"Qt","tagline":"...","body":"Under construction","google":"","note":"Don't delete this file! It's used internally to help with page regeneration."}
+{
+  "name": "Quick Translator Origin",
+  "tagline": "The most lightweight and easiest translator",
+  "body": "Translate between more than 50 languages with one click or a hot key. Translate from one word to a whole page.\r\n\r\nThis is a fork of the former Firefox Add-On Quick Translator (v1.0) from Igor Gladkov which was removed from the add-on platform of Firefox:\r\n\r\n- https://bugzilla.mozilla.org/show_bug.cgi?id=1175425\r\n- https://addons.mozilla.org/blocked/i966\r\n\r\nDownload @ Mozilla: https://addons.mozilla.org/de/firefox/addon/quick-translator-origin/\r\n",
+  "google": "",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
